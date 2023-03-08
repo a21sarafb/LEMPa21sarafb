@@ -1,0 +1,1061 @@
+2023/03/05 11:57:19 [emerg] 1#1: pcre2_compile() failed: unrecognized character after (? or (?- in "^(?[^.]+)\.a21gonzalocm\.dedyn\.io$" at "[^.]+)\.a21gonzalocm\.dedyn\.io$" in /etc/nginx/conf.d/nginx.conf:17
+2023/03/05 12:03:13 [emerg] 1#1: pcre2_compile() failed: unrecognized character after (? or (?- in "^(?[^.]+)\.a21gonzalocm\.dedyn\.io$" at "[^.]+)\.a21gonzalocm\.dedyn\.io$" in /etc/nginx/conf.d/nginx.conf:16
+2023/03/05 12:05:46 [emerg] 1#1: open() "/etc/nginx/fastcgi.conf" failed (2: No such file or directory) in /etc/nginx/conf.d/nginx.conf:54
+2023/03/05 12:08:44 [emerg] 1#1: open() "/etc/nginx/fastcgi.conf" failed (2: No such file or directory) in /etc/nginx/conf.d/nginx.conf:54
+2023/03/05 12:12:57 [emerg] 1#1: cannot load certificate "/etc/letsencrypt/live/a21gonzalocm.dedyn.io/server.pem": BIO_new_file() failed (SSL: error:80000002:system library::No such file or directory:calling fopen(/etc/letsencrypt/live/a21gonzalocm.dedyn.io/server.pem, r) error:10000080:BIO routines::no such file)
+2023/03/05 12:17:20 [emerg] 1#1: cannot load certificate "/etc/letsencrypt/live/a21gonzalocm.dedyn.io/server.pem": BIO_new_file() failed (SSL: error:80000002:system library::No such file or directory:calling fopen(/etc/letsencrypt/live/a21gonzalocm.dedyn.io/server.pem, r) error:10000080:BIO routines::no such file)
+2023/03/05 12:18:42 [emerg] 1#1: cannot load certificate "/etc/letsencrypt/live/a21gonzalocm.dedyn.io/server.pem": BIO_new_file() failed (SSL: error:80000002:system library::No such file or directory:calling fopen(/etc/letsencrypt/live/a21gonzalocm.dedyn.io/server.pem, r) error:10000080:BIO routines::no such file)
+2023/03/05 14:38:58 [emerg] 1#1: cannot load certificate "/etc/letsencrypt/live/a21gonzalocm.dedyn.io/server.pem": BIO_new_file() failed (SSL: error:80000002:system library::No such file or directory:calling fopen(/etc/letsencrypt/live/a21gonzalocm.dedyn.io/server.pem, r) error:10000080:BIO routines::no such file)
+2023/03/05 14:42:30 [emerg] 1#1: cannot load certificate "/etc/letsencrypt/live/a21gonzalocm.dedyn.io/server.pem": BIO_new_file() failed (SSL: error:80000002:system library::No such file or directory:calling fopen(/etc/letsencrypt/live/a21gonzalocm.dedyn.io/server.pem, r) error:10000080:BIO routines::no such file)
+2023/03/05 14:43:19 [emerg] 1#1: cannot load certificate key "/etc/letsencrypt/live/a21gonzalocm.dedyn.io/privkey.key": BIO_new_file() failed (SSL: error:80000002:system library::No such file or directory:calling fopen(/etc/letsencrypt/live/a21gonzalocm.dedyn.io/privkey.key, r) error:10000080:BIO routines::no such file)
+2023/03/05 14:44:10 [notice] 1#1: using the "epoll" event method
+2023/03/05 14:44:10 [notice] 1#1: nginx/1.23.3
+2023/03/05 14:44:10 [notice] 1#1: built by gcc 12.2.1 20220924 (Alpine 12.2.1_git20220924-r4) 
+2023/03/05 14:44:10 [notice] 1#1: OS: Linux 5.19.0-32-generic
+2023/03/05 14:44:10 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/03/05 14:44:10 [notice] 1#1: start worker processes
+2023/03/05 14:44:10 [notice] 1#1: start worker process 20
+2023/03/05 14:44:10 [notice] 1#1: start worker process 21
+2023/03/05 14:44:10 [notice] 1#1: start worker process 22
+2023/03/05 14:44:10 [notice] 1#1: start worker process 23
+2023/03/05 14:44:10 [notice] 1#1: start worker process 24
+2023/03/05 14:44:10 [notice] 1#1: start worker process 25
+2023/03/05 14:44:28 [error] 22#22: *4 open() "/var/www/html/prestashop/favicon.ico" failed (2: No such file or directory), client: 10.0.2.15, server: ~^(?<subdomain>[^.]+)\.a21gonzalocm\.dedyn\.io$, request: "GET /favicon.ico HTTP/1.1", host: "prestashop.a21gonzalocm.dedyn.io", referrer: "https://prestashop.a21gonzalocm.dedyn.io/"
+2023/03/05 15:01:45 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2023/03/05 15:01:45 [notice] 21#21: gracefully shutting down
+2023/03/05 15:01:45 [notice] 20#20: gracefully shutting down
+2023/03/05 15:01:45 [notice] 22#22: gracefully shutting down
+2023/03/05 15:01:45 [notice] 25#25: gracefully shutting down
+2023/03/05 15:01:45 [notice] 24#24: gracefully shutting down
+2023/03/05 15:01:45 [notice] 21#21: exiting
+2023/03/05 15:01:45 [notice] 20#20: exiting
+2023/03/05 15:01:45 [notice] 25#25: exiting
+2023/03/05 15:01:45 [notice] 24#24: exiting
+2023/03/05 15:01:45 [notice] 22#22: exiting
+2023/03/05 15:01:45 [notice] 25#25: exit
+2023/03/05 15:01:45 [notice] 24#24: exit
+2023/03/05 15:01:45 [notice] 21#21: exit
+2023/03/05 15:01:45 [notice] 20#20: exit
+2023/03/05 15:01:45 [notice] 22#22: exit
+2023/03/05 15:01:45 [notice] 23#23: gracefully shutting down
+2023/03/05 15:01:45 [notice] 23#23: exiting
+2023/03/05 15:01:45 [notice] 23#23: exit
+2023/03/05 15:01:45 [notice] 1#1: signal 17 (SIGCHLD) received from 22
+2023/03/05 15:01:45 [notice] 1#1: worker process 20 exited with code 0
+2023/03/05 15:01:45 [notice] 1#1: worker process 21 exited with code 0
+2023/03/05 15:01:45 [notice] 1#1: worker process 22 exited with code 0
+2023/03/05 15:01:45 [notice] 1#1: worker process 23 exited with code 0
+2023/03/05 15:01:45 [notice] 1#1: worker process 25 exited with code 0
+2023/03/05 15:01:45 [notice] 1#1: signal 29 (SIGIO) received
+2023/03/05 15:01:45 [notice] 1#1: signal 17 (SIGCHLD) received from 20
+2023/03/05 15:01:45 [notice] 1#1: signal 17 (SIGCHLD) received from 24
+2023/03/05 15:01:45 [notice] 1#1: worker process 24 exited with code 0
+2023/03/05 15:01:45 [notice] 1#1: exit
+2023/03/05 15:01:58 [notice] 1#1: using the "epoll" event method
+2023/03/05 15:01:58 [notice] 1#1: nginx/1.23.3
+2023/03/05 15:01:58 [notice] 1#1: built by gcc 12.2.1 20220924 (Alpine 12.2.1_git20220924-r4) 
+2023/03/05 15:01:58 [notice] 1#1: OS: Linux 5.19.0-32-generic
+2023/03/05 15:01:58 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/03/05 15:01:58 [notice] 1#1: start worker processes
+2023/03/05 15:01:58 [notice] 1#1: start worker process 20
+2023/03/05 15:01:58 [notice] 1#1: start worker process 21
+2023/03/05 15:01:58 [notice] 1#1: start worker process 22
+2023/03/05 15:01:58 [notice] 1#1: start worker process 23
+2023/03/05 15:01:58 [notice] 1#1: start worker process 24
+2023/03/05 15:01:58 [notice] 1#1: start worker process 25
+2023/03/05 15:02:45 [error] 22#22: *6 open() "/var/www/html/wordpress/favicon.ico" failed (2: No such file or directory), client: 10.0.2.15, server: ~^(?<subdomain>[^.]+)\.a21gonzalocm\.dedyn\.io$, request: "GET /favicon.ico HTTP/1.1", host: "wordpress.a21gonzalocm.dedyn.io", referrer: "https://wordpress.a21gonzalocm.dedyn.io/wp-admin/setup-config.php"
+2023/03/05 15:11:36 [error] 21#21: *59 upstream timed out (110: Operation timed out) while reading response header from upstream, client: 10.0.2.15, server: ~^(?<subdomain>[^.]+)\.a21gonzalocm\.dedyn\.io$, request: "GET /core/install.php?langcode=es&profile=demo_umami HTTP/1.1", upstream: "fastcgi://172.24.0.4:9000", host: "drupal.a21gonzalocm.dedyn.io", referrer: "https://drupal.a21gonzalocm.dedyn.io/core/install.php?langcode=es&profile=demo_umami&id=3&op=start"
+2023/03/05 15:11:36 [error] 21#21: *59 open() "/var/www/html/drupal/favicon.ico" failed (2: No such file or directory), client: 10.0.2.15, server: ~^(?<subdomain>[^.]+)\.a21gonzalocm\.dedyn\.io$, request: "GET /favicon.ico HTTP/1.1", host: "drupal.a21gonzalocm.dedyn.io", referrer: "https://drupal.a21gonzalocm.dedyn.io/core/install.php?langcode=es&profile=demo_umami"
+2023/03/05 15:12:00 [error] 20#20: *151 open() "/var/www/html/drupal/sites/default/files/styles/large_3_2_2x/public/oatmeal-fruit-syrup-topping.jpg" failed (2: No such file or directory), client: 10.0.2.15, server: ~^(?<subdomain>[^.]+)\.a21gonzalocm\.dedyn\.io$, request: "GET /sites/default/files/styles/large_3_2_2x/public/oatmeal-fruit-syrup-topping.jpg?itok=ZWtHEVsv HTTP/1.1", host: "drupal.a21gonzalocm.dedyn.io", referrer: "https://drupal.a21gonzalocm.dedyn.io/"
+2023/03/05 15:12:00 [error] 20#20: *152 open() "/var/www/html/drupal/sites/default/files/styles/square_large/public/borscht-with-pork-ribs-umami.jpg" failed (2: No such file or directory), client: 10.0.2.15, server: ~^(?<subdomain>[^.]+)\.a21gonzalocm\.dedyn\.io$, request: "GET /sites/default/files/styles/square_large/public/borscht-with-pork-ribs-umami.jpg?itok=kUsDKCO0 HTTP/1.1", host: "drupal.a21gonzalocm.dedyn.io", referrer: "https://drupal.a21gonzalocm.dedyn.io/"
+2023/03/05 15:12:00 [error] 20#20: *153 open() "/var/www/html/drupal/sites/default/files/styles/square_large/public/chili-sauce-umami.jpg" failed (2: No such file or directory), client: 10.0.2.15, server: ~^(?<subdomain>[^.]+)\.a21gonzalocm\.dedyn\.io$, request: "GET /sites/default/files/styles/square_large/public/chili-sauce-umami.jpg?itok=4s1gOTR7 HTTP/1.1", host: "drupal.a21gonzalocm.dedyn.io", referrer: "https://drupal.a21gonzalocm.dedyn.io/"
+2023/03/05 15:12:00 [error] 21#21: *59 open() "/var/www/html/drupal/sites/default/files/styles/large_3_2_2x/public/mediterranean-quiche-umami.jpg" failed (2: No such file or directory), client: 10.0.2.15, server: ~^(?<subdomain>[^.]+)\.a21gonzalocm\.dedyn\.io$, request: "GET /sites/default/files/styles/large_3_2_2x/public/mediterranean-quiche-umami.jpg?itok=0olY-97- HTTP/1.1", host: "drupal.a21gonzalocm.dedyn.io", referrer: "https://drupal.a21gonzalocm.dedyn.io/"
+2023/03/05 15:12:00 [error] 20#20: *150 open() "/var/www/html/drupal/sites/default/files/styles/large_3_2_2x/public/vegan-chocolate-nut-brownies.jpg" failed (2: No such file or directory), client: 10.0.2.15, server: ~^(?<subdomain>[^.]+)\.a21gonzalocm\.dedyn\.io$, request: "GET /sites/default/files/styles/large_3_2_2x/public/vegan-chocolate-nut-brownies.jpg?itok=4GDNinWs HTTP/1.1", host: "drupal.a21gonzalocm.dedyn.io", referrer: "https://drupal.a21gonzalocm.dedyn.io/"
+2023/03/05 15:12:00 [error] 21#21: *59 open() "/var/www/html/drupal/sites/default/files/styles/large_3_2_2x/public/veggie-pasta-bake-umami.jpg" failed (2: No such file or directory), client: 10.0.2.15, server: ~^(?<subdomain>[^.]+)\.a21gonzalocm\.dedyn\.io$, request: "GET /sites/default/files/styles/large_3_2_2x/public/veggie-pasta-bake-umami.jpg?itok=A9Hpjppi HTTP/1.1", host: "drupal.a21gonzalocm.dedyn.io", referrer: "https://drupal.a21gonzalocm.dedyn.io/"
+2023/03/05 15:12:00 [error] 20#20: *153 open() "/var/www/html/drupal/sites/default/files/styles/large_3_2_2x/public/watercress-soup-umami.jpg" failed (2: No such file or directory), client: 10.0.2.15, server: ~^(?<subdomain>[^.]+)\.a21gonzalocm\.dedyn\.io$, request: "GET /sites/default/files/styles/large_3_2_2x/public/watercress-soup-umami.jpg?itok=5ArJmBEA HTTP/1.1", host: "drupal.a21gonzalocm.dedyn.io", referrer: "https://drupal.a21gonzalocm.dedyn.io/"
+2023/03/05 15:12:01 [error] 20#20: *153 open() "/var/www/html/drupal/sites/default/files/styles/medium_8_7/public/umami-bundle.png" failed (2: No such file or directory), client: 10.0.2.15, server: ~^(?<subdomain>[^.]+)\.a21gonzalocm\.dedyn\.io$, request: "GET /sites/default/files/styles/medium_8_7/public/umami-bundle.png?itok=QrkfnDRe HTTP/1.1", host: "drupal.a21gonzalocm.dedyn.io", referrer: "https://drupal.a21gonzalocm.dedyn.io/"
+2023/03/05 15:12:10 [error] 20#20: *150 open() "/var/www/html/drupal/sites/default/files/styles/large_3_2_2x/public/oatmeal-fruit-syrup-topping.jpg" failed (2: No such file or directory), client: 10.0.2.15, server: ~^(?<subdomain>[^.]+)\.a21gonzalocm\.dedyn\.io$, request: "GET /sites/default/files/styles/large_3_2_2x/public/oatmeal-fruit-syrup-topping.jpg?itok=ZWtHEVsv HTTP/1.1", host: "drupal.a21gonzalocm.dedyn.io", referrer: "https://drupal.a21gonzalocm.dedyn.io/"
+2023/03/05 15:12:10 [error] 21#21: *59 open() "/var/www/html/drupal/sites/default/files/styles/square_large/public/borscht-with-pork-ribs-umami.jpg" failed (2: No such file or directory), client: 10.0.2.15, server: ~^(?<subdomain>[^.]+)\.a21gonzalocm\.dedyn\.io$, request: "GET /sites/default/files/styles/square_large/public/borscht-with-pork-ribs-umami.jpg?itok=kUsDKCO0 HTTP/1.1", host: "drupal.a21gonzalocm.dedyn.io", referrer: "https://drupal.a21gonzalocm.dedyn.io/"
+2023/03/05 15:12:10 [error] 21#21: *59 open() "/var/www/html/drupal/sites/default/files/styles/square_large/public/chili-sauce-umami.jpg" failed (2: No such file or directory), client: 10.0.2.15, server: ~^(?<subdomain>[^.]+)\.a21gonzalocm\.dedyn\.io$, request: "GET /sites/default/files/styles/square_large/public/chili-sauce-umami.jpg?itok=4s1gOTR7 HTTP/1.1", host: "drupal.a21gonzalocm.dedyn.io", referrer: "https://drupal.a21gonzalocm.dedyn.io/"
+2023/03/05 15:12:10 [error] 20#20: *150 open() "/var/www/html/drupal/sites/default/files/styles/large_3_2_2x/public/mediterranean-quiche-umami.jpg" failed (2: No such file or directory), client: 10.0.2.15, server: ~^(?<subdomain>[^.]+)\.a21gonzalocm\.dedyn\.io$, request: "GET /sites/default/files/styles/large_3_2_2x/public/mediterranean-quiche-umami.jpg?itok=0olY-97- HTTP/1.1", host: "drupal.a21gonzalocm.dedyn.io", referrer: "https://drupal.a21gonzalocm.dedyn.io/"
+2023/03/05 15:12:10 [error] 20#20: *153 open() "/var/www/html/drupal/sites/default/files/styles/large_3_2_2x/public/vegan-chocolate-nut-brownies.jpg" failed (2: No such file or directory), client: 10.0.2.15, server: ~^(?<subdomain>[^.]+)\.a21gonzalocm\.dedyn\.io$, request: "GET /sites/default/files/styles/large_3_2_2x/public/vegan-chocolate-nut-brownies.jpg?itok=4GDNinWs HTTP/1.1", host: "drupal.a21gonzalocm.dedyn.io", referrer: "https://drupal.a21gonzalocm.dedyn.io/"
+2023/03/05 15:12:10 [error] 20#20: *152 open() "/var/www/html/drupal/sites/default/files/styles/large_3_2_2x/public/veggie-pasta-bake-umami.jpg" failed (2: No such file or directory), client: 10.0.2.15, server: ~^(?<subdomain>[^.]+)\.a21gonzalocm\.dedyn\.io$, request: "GET /sites/default/files/styles/large_3_2_2x/public/veggie-pasta-bake-umami.jpg?itok=A9Hpjppi HTTP/1.1", host: "drupal.a21gonzalocm.dedyn.io", referrer: "https://drupal.a21gonzalocm.dedyn.io/"
+2023/03/05 15:12:10 [error] 20#20: *151 open() "/var/www/html/drupal/sites/default/files/styles/large_3_2_2x/public/watercress-soup-umami.jpg" failed (2: No such file or directory), client: 10.0.2.15, server: ~^(?<subdomain>[^.]+)\.a21gonzalocm\.dedyn\.io$, request: "GET /sites/default/files/styles/large_3_2_2x/public/watercress-soup-umami.jpg?itok=5ArJmBEA HTTP/1.1", host: "drupal.a21gonzalocm.dedyn.io", referrer: "https://drupal.a21gonzalocm.dedyn.io/"
+2023/03/05 15:12:10 [error] 20#20: *152 open() "/var/www/html/drupal/sites/default/files/styles/medium_8_7/public/umami-bundle.png" failed (2: No such file or directory), client: 10.0.2.15, server: ~^(?<subdomain>[^.]+)\.a21gonzalocm\.dedyn\.io$, request: "GET /sites/default/files/styles/medium_8_7/public/umami-bundle.png?itok=QrkfnDRe HTTP/1.1", host: "drupal.a21gonzalocm.dedyn.io", referrer: "https://drupal.a21gonzalocm.dedyn.io/"
+2023/03/08 11:38:10 [notice] 1#1: using the "epoll" event method
+2023/03/08 11:38:10 [notice] 1#1: nginx/1.23.3
+2023/03/08 11:38:10 [notice] 1#1: built by gcc 12.2.1 20220924 (Alpine 12.2.1_git20220924-r4) 
+2023/03/08 11:38:10 [notice] 1#1: OS: Linux 5.19.0-35-generic
+2023/03/08 11:38:10 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/03/08 11:38:10 [notice] 1#1: start worker processes
+2023/03/08 11:38:10 [notice] 1#1: start worker process 20
+2023/03/08 11:38:10 [notice] 1#1: start worker process 21
+2023/03/08 11:38:10 [notice] 1#1: start worker process 22
+2023/03/08 11:38:10 [notice] 1#1: start worker process 23
+2023/03/08 11:38:10 [notice] 1#1: start worker process 24
+2023/03/08 11:38:10 [notice] 1#1: start worker process 25
+2023/03/08 11:38:10 [notice] 1#1: start worker process 26
+2023/03/08 11:38:10 [notice] 1#1: start worker process 27
+2023/03/08 11:38:10 [notice] 1#1: start worker process 28
+2023/03/08 11:38:10 [notice] 1#1: start worker process 29
+2023/03/08 11:38:10 [notice] 1#1: start worker process 30
+2023/03/08 11:38:10 [notice] 1#1: start worker process 31
+2023/03/08 11:38:10 [notice] 1#1: start worker process 32
+2023/03/08 11:38:10 [notice] 1#1: start worker process 33
+2023/03/08 11:38:10 [notice] 1#1: start worker process 34
+2023/03/08 11:38:10 [notice] 1#1: start worker process 35
+2023/03/08 11:44:10 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2023/03/08 11:44:10 [notice] 20#20: gracefully shutting down
+2023/03/08 11:44:10 [notice] 21#21: gracefully shutting down
+2023/03/08 11:44:10 [notice] 20#20: exiting
+2023/03/08 11:44:10 [notice] 21#21: exiting
+2023/03/08 11:44:10 [notice] 22#22: gracefully shutting down
+2023/03/08 11:44:10 [notice] 23#23: gracefully shutting down
+2023/03/08 11:44:10 [notice] 24#24: gracefully shutting down
+2023/03/08 11:44:10 [notice] 25#25: gracefully shutting down
+2023/03/08 11:44:10 [notice] 27#27: gracefully shutting down
+2023/03/08 11:44:10 [notice] 26#26: gracefully shutting down
+2023/03/08 11:44:10 [notice] 28#28: gracefully shutting down
+2023/03/08 11:44:10 [notice] 29#29: gracefully shutting down
+2023/03/08 11:44:10 [notice] 30#30: gracefully shutting down
+2023/03/08 11:44:10 [notice] 32#32: gracefully shutting down
+2023/03/08 11:44:10 [notice] 20#20: exit
+2023/03/08 11:44:10 [notice] 21#21: exit
+2023/03/08 11:44:10 [notice] 31#31: gracefully shutting down
+2023/03/08 11:44:10 [notice] 33#33: gracefully shutting down
+2023/03/08 11:44:10 [notice] 22#22: exiting
+2023/03/08 11:44:10 [notice] 23#23: exiting
+2023/03/08 11:44:10 [notice] 24#24: exiting
+2023/03/08 11:44:10 [notice] 25#25: exiting
+2023/03/08 11:44:10 [notice] 27#27: exiting
+2023/03/08 11:44:10 [notice] 26#26: exiting
+2023/03/08 11:44:10 [notice] 28#28: exiting
+2023/03/08 11:44:10 [notice] 29#29: exiting
+2023/03/08 11:44:10 [notice] 30#30: exiting
+2023/03/08 11:44:10 [notice] 32#32: exiting
+2023/03/08 11:44:10 [notice] 31#31: exiting
+2023/03/08 11:44:10 [notice] 33#33: exiting
+2023/03/08 11:44:10 [notice] 23#23: exit
+2023/03/08 11:44:10 [notice] 27#27: exit
+2023/03/08 11:44:10 [notice] 24#24: exit
+2023/03/08 11:44:10 [notice] 22#22: exit
+2023/03/08 11:44:10 [notice] 28#28: exit
+2023/03/08 11:44:10 [notice] 25#25: exit
+2023/03/08 11:44:10 [notice] 31#31: exit
+2023/03/08 11:44:10 [notice] 32#32: exit
+2023/03/08 11:44:10 [notice] 30#30: exit
+2023/03/08 11:44:10 [notice] 29#29: exit
+2023/03/08 11:44:10 [notice] 33#33: exit
+2023/03/08 11:44:10 [notice] 26#26: exit
+2023/03/08 11:44:10 [notice] 34#34: gracefully shutting down
+2023/03/08 11:44:10 [notice] 34#34: exiting
+2023/03/08 11:44:10 [notice] 35#35: gracefully shutting down
+2023/03/08 11:44:10 [notice] 35#35: exiting
+2023/03/08 11:44:10 [notice] 34#34: exit
+2023/03/08 11:44:10 [notice] 35#35: exit
+2023/03/08 11:44:10 [notice] 1#1: signal 17 (SIGCHLD) received from 25
+2023/03/08 11:44:10 [notice] 1#1: worker process 25 exited with code 0
+2023/03/08 11:44:10 [notice] 1#1: signal 29 (SIGIO) received
+2023/03/08 11:44:10 [notice] 1#1: signal 17 (SIGCHLD) received from 30
+2023/03/08 11:44:10 [notice] 1#1: worker process 30 exited with code 0
+2023/03/08 11:44:10 [notice] 1#1: signal 29 (SIGIO) received
+2023/03/08 11:44:10 [notice] 1#1: signal 17 (SIGCHLD) received from 31
+2023/03/08 11:44:10 [notice] 1#1: worker process 20 exited with code 0
+2023/03/08 11:44:10 [notice] 1#1: worker process 31 exited with code 0
+2023/03/08 11:44:10 [notice] 1#1: worker process 34 exited with code 0
+2023/03/08 11:44:10 [notice] 1#1: signal 29 (SIGIO) received
+2023/03/08 11:44:10 [notice] 1#1: signal 17 (SIGCHLD) received from 20
+2023/03/08 11:44:10 [notice] 1#1: signal 17 (SIGCHLD) received from 27
+2023/03/08 11:44:10 [notice] 1#1: worker process 27 exited with code 0
+2023/03/08 11:44:10 [notice] 1#1: worker process 32 exited with code 0
+2023/03/08 11:44:10 [notice] 1#1: signal 29 (SIGIO) received
+2023/03/08 11:44:10 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2023/03/08 11:44:10 [notice] 1#1: worker process 23 exited with code 0
+2023/03/08 11:44:10 [notice] 1#1: worker process 35 exited with code 0
+2023/03/08 11:44:10 [notice] 1#1: signal 29 (SIGIO) received
+2023/03/08 11:44:10 [notice] 1#1: signal 17 (SIGCHLD) received from 29
+2023/03/08 11:44:10 [notice] 1#1: worker process 21 exited with code 0
+2023/03/08 11:44:10 [notice] 1#1: worker process 22 exited with code 0
+2023/03/08 11:44:10 [notice] 1#1: worker process 28 exited with code 0
+2023/03/08 11:44:10 [notice] 1#1: worker process 29 exited with code 0
+2023/03/08 11:44:10 [notice] 1#1: signal 29 (SIGIO) received
+2023/03/08 11:44:10 [notice] 1#1: signal 17 (SIGCHLD) received from 21
+2023/03/08 11:44:10 [notice] 1#1: signal 17 (SIGCHLD) received from 26
+2023/03/08 11:44:10 [notice] 1#1: worker process 26 exited with code 0
+2023/03/08 11:44:10 [notice] 1#1: signal 29 (SIGIO) received
+2023/03/08 11:44:10 [notice] 1#1: signal 17 (SIGCHLD) received from 33
+2023/03/08 11:44:10 [notice] 1#1: worker process 33 exited with code 0
+2023/03/08 11:44:10 [notice] 1#1: signal 29 (SIGIO) received
+2023/03/08 11:44:10 [notice] 1#1: signal 17 (SIGCHLD) received from 24
+2023/03/08 11:44:10 [notice] 1#1: worker process 24 exited with code 0
+2023/03/08 11:44:10 [notice] 1#1: exit
+2023/03/08 11:44:18 [notice] 1#1: using the "epoll" event method
+2023/03/08 11:44:18 [notice] 1#1: nginx/1.23.3
+2023/03/08 11:44:18 [notice] 1#1: built by gcc 12.2.1 20220924 (Alpine 12.2.1_git20220924-r4) 
+2023/03/08 11:44:18 [notice] 1#1: OS: Linux 5.19.0-35-generic
+2023/03/08 11:44:18 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/03/08 11:44:18 [notice] 1#1: start worker processes
+2023/03/08 11:44:18 [notice] 1#1: start worker process 20
+2023/03/08 11:44:18 [notice] 1#1: start worker process 21
+2023/03/08 11:44:18 [notice] 1#1: start worker process 22
+2023/03/08 11:44:18 [notice] 1#1: start worker process 23
+2023/03/08 11:44:18 [notice] 1#1: start worker process 24
+2023/03/08 11:44:18 [notice] 1#1: start worker process 25
+2023/03/08 11:44:18 [notice] 1#1: start worker process 26
+2023/03/08 11:44:18 [notice] 1#1: start worker process 27
+2023/03/08 11:44:18 [notice] 1#1: start worker process 28
+2023/03/08 11:44:18 [notice] 1#1: start worker process 29
+2023/03/08 11:44:18 [notice] 1#1: start worker process 30
+2023/03/08 11:44:18 [notice] 1#1: start worker process 31
+2023/03/08 11:44:18 [notice] 1#1: start worker process 32
+2023/03/08 11:44:18 [notice] 1#1: start worker process 33
+2023/03/08 11:44:18 [notice] 1#1: start worker process 34
+2023/03/08 11:44:18 [notice] 1#1: start worker process 35
+2023/03/08 11:49:55 [error] 20#20: *6 open() "/var/www/html/prestashop/favicon.ico" failed (2: No such file or directory), client: 10.12.0.20, server: ~^(?<subdomain>[^.]+)\.tarefa21sarafb\.dedyn\.io$, request: "GET /favicon.ico HTTP/1.1", host: "prestashop.tarefa21sarafb.dedyn.io", referrer: "https://prestashop.tarefa21sarafb.dedyn.io/"
+2023/03/08 11:50:14 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2023/03/08 11:50:14 [notice] 20#20: gracefully shutting down
+2023/03/08 11:50:14 [notice] 21#21: gracefully shutting down
+2023/03/08 11:50:14 [notice] 33#33: gracefully shutting down
+2023/03/08 11:50:14 [notice] 23#23: gracefully shutting down
+2023/03/08 11:50:14 [notice] 22#22: gracefully shutting down
+2023/03/08 11:50:14 [notice] 34#34: gracefully shutting down
+2023/03/08 11:50:14 [notice] 24#24: gracefully shutting down
+2023/03/08 11:50:14 [notice] 25#25: gracefully shutting down
+2023/03/08 11:50:14 [notice] 26#26: gracefully shutting down
+2023/03/08 11:50:14 [notice] 28#28: gracefully shutting down
+2023/03/08 11:50:14 [notice] 27#27: gracefully shutting down
+2023/03/08 11:50:14 [notice] 33#33: exiting
+2023/03/08 11:50:14 [notice] 29#29: gracefully shutting down
+2023/03/08 11:50:14 [notice] 23#23: exiting
+2023/03/08 11:50:14 [notice] 34#34: exiting
+2023/03/08 11:50:14 [notice] 24#24: exiting
+2023/03/08 11:50:14 [notice] 25#25: exiting
+2023/03/08 11:50:14 [notice] 28#28: exiting
+2023/03/08 11:50:14 [notice] 26#26: exiting
+2023/03/08 11:50:14 [notice] 29#29: exiting
+2023/03/08 11:50:14 [notice] 27#27: exiting
+2023/03/08 11:50:14 [notice] 30#30: gracefully shutting down
+2023/03/08 11:50:14 [notice] 21#21: exiting
+2023/03/08 11:50:14 [notice] 22#22: exiting
+2023/03/08 11:50:14 [notice] 30#30: exiting
+2023/03/08 11:50:14 [notice] 31#31: gracefully shutting down
+2023/03/08 11:50:14 [notice] 31#31: exiting
+2023/03/08 11:50:14 [notice] 32#32: gracefully shutting down
+2023/03/08 11:50:14 [notice] 28#28: exit
+2023/03/08 11:50:14 [notice] 33#33: exit
+2023/03/08 11:50:14 [notice] 34#34: exit
+2023/03/08 11:50:14 [notice] 29#29: exit
+2023/03/08 11:50:14 [notice] 25#25: exit
+2023/03/08 11:50:14 [notice] 24#24: exit
+2023/03/08 11:50:14 [notice] 26#26: exit
+2023/03/08 11:50:14 [notice] 27#27: exit
+2023/03/08 11:50:14 [notice] 21#21: exit
+2023/03/08 11:50:14 [notice] 32#32: exiting
+2023/03/08 11:50:14 [notice] 30#30: exit
+2023/03/08 11:50:14 [notice] 22#22: exit
+2023/03/08 11:50:14 [notice] 31#31: exit
+2023/03/08 11:50:14 [notice] 35#35: gracefully shutting down
+2023/03/08 11:50:14 [notice] 35#35: exiting
+2023/03/08 11:50:14 [notice] 32#32: exit
+2023/03/08 11:50:14 [notice] 35#35: exit
+2023/03/08 11:50:14 [notice] 23#23: exit
+2023/03/08 11:50:15 [notice] 1#1: signal 17 (SIGCHLD) received from 33
+2023/03/08 11:50:15 [notice] 1#1: worker process 33 exited with code 0
+2023/03/08 11:50:15 [notice] 1#1: signal 29 (SIGIO) received
+2023/03/08 11:50:15 [notice] 1#1: signal 17 (SIGCHLD) received from 26
+2023/03/08 11:50:15 [notice] 1#1: worker process 26 exited with code 0
+2023/03/08 11:50:15 [notice] 1#1: signal 29 (SIGIO) received
+2023/03/08 11:50:15 [notice] 1#1: signal 17 (SIGCHLD) received from 31
+2023/03/08 11:50:15 [notice] 1#1: worker process 31 exited with code 0
+2023/03/08 11:50:15 [notice] 1#1: signal 29 (SIGIO) received
+2023/03/08 11:50:15 [notice] 1#1: signal 17 (SIGCHLD) received from 21
+2023/03/08 11:50:15 [notice] 1#1: worker process 21 exited with code 0
+2023/03/08 11:50:15 [notice] 1#1: signal 29 (SIGIO) received
+2023/03/08 11:50:15 [notice] 1#1: signal 17 (SIGCHLD) received from 25
+2023/03/08 11:50:15 [notice] 1#1: worker process 25 exited with code 0
+2023/03/08 11:50:15 [notice] 1#1: worker process 27 exited with code 0
+2023/03/08 11:50:15 [notice] 1#1: signal 29 (SIGIO) received
+2023/03/08 11:50:15 [notice] 1#1: signal 17 (SIGCHLD) received from 27
+2023/03/08 11:50:15 [notice] 1#1: worker process 24 exited with code 0
+2023/03/08 11:50:15 [notice] 1#1: worker process 29 exited with code 0
+2023/03/08 11:50:15 [notice] 1#1: signal 29 (SIGIO) received
+2023/03/08 11:50:15 [notice] 1#1: signal 17 (SIGCHLD) received from 30
+2023/03/08 11:50:15 [notice] 1#1: worker process 30 exited with code 0
+2023/03/08 11:50:15 [notice] 1#1: worker process 23 exited with code 0
+2023/03/08 11:50:15 [notice] 1#1: signal 29 (SIGIO) received
+2023/03/08 11:50:15 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2023/03/08 11:50:15 [notice] 1#1: signal 17 (SIGCHLD) received from 34
+2023/03/08 11:50:15 [notice] 1#1: worker process 34 exited with code 0
+2023/03/08 11:50:15 [notice] 1#1: signal 29 (SIGIO) received
+2023/03/08 11:50:15 [notice] 1#1: signal 17 (SIGCHLD) received from 32
+2023/03/08 11:50:15 [notice] 1#1: worker process 32 exited with code 0
+2023/03/08 11:50:15 [notice] 1#1: worker process 35 exited with code 0
+2023/03/08 11:50:15 [notice] 1#1: worker process 28 exited with code 0
+2023/03/08 11:50:15 [notice] 1#1: signal 29 (SIGIO) received
+2023/03/08 11:50:15 [notice] 1#1: signal 17 (SIGCHLD) received from 35
+2023/03/08 11:50:15 [notice] 1#1: signal 17 (SIGCHLD) received from 22
+2023/03/08 11:50:15 [notice] 1#1: worker process 22 exited with code 0
+2023/03/08 11:50:15 [notice] 1#1: signal 29 (SIGIO) received
+2023/03/08 11:50:15 [notice] 20#20: exiting
+2023/03/08 11:50:15 [notice] 20#20: exit
+2023/03/08 11:50:15 [notice] 1#1: signal 17 (SIGCHLD) received from 20
+2023/03/08 11:50:15 [notice] 1#1: worker process 20 exited with code 0
+2023/03/08 11:50:15 [notice] 1#1: exit
+2023/03/08 11:50:59 [notice] 1#1: using the "epoll" event method
+2023/03/08 11:50:59 [notice] 1#1: nginx/1.23.3
+2023/03/08 11:50:59 [notice] 1#1: built by gcc 12.2.1 20220924 (Alpine 12.2.1_git20220924-r4) 
+2023/03/08 11:50:59 [notice] 1#1: OS: Linux 5.19.0-35-generic
+2023/03/08 11:50:59 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/03/08 11:50:59 [notice] 1#1: start worker processes
+2023/03/08 11:50:59 [notice] 1#1: start worker process 20
+2023/03/08 11:50:59 [notice] 1#1: start worker process 21
+2023/03/08 11:50:59 [notice] 1#1: start worker process 22
+2023/03/08 11:50:59 [notice] 1#1: start worker process 23
+2023/03/08 11:50:59 [notice] 1#1: start worker process 24
+2023/03/08 11:50:59 [notice] 1#1: start worker process 25
+2023/03/08 11:50:59 [notice] 1#1: start worker process 26
+2023/03/08 11:50:59 [notice] 1#1: start worker process 27
+2023/03/08 11:50:59 [notice] 1#1: start worker process 28
+2023/03/08 11:50:59 [notice] 1#1: start worker process 29
+2023/03/08 11:50:59 [notice] 1#1: start worker process 30
+2023/03/08 11:50:59 [notice] 1#1: start worker process 31
+2023/03/08 11:50:59 [notice] 1#1: start worker process 32
+2023/03/08 11:50:59 [notice] 1#1: start worker process 33
+2023/03/08 11:50:59 [notice] 1#1: start worker process 34
+2023/03/08 11:50:59 [notice] 1#1: start worker process 35
+2023/03/08 11:56:36 [error] 21#21: *130 open() "/var/www/html/wordpress/favicon.ico" failed (2: No such file or directory), client: 10.12.0.20, server: ~^(?<subdomain>[^.]+)\.tarefa21sarafb\.dedyn\.io$, request: "GET /favicon.ico HTTP/1.1", host: "wordpress.tarefa21sarafb.dedyn.io", referrer: "https://wordpress.tarefa21sarafb.dedyn.io/wp-admin/install.php"
+2023/03/08 12:00:07 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2023/03/08 12:00:07 [notice] 22#22: gracefully shutting down
+2023/03/08 12:00:07 [notice] 22#22: exiting
+2023/03/08 12:00:07 [notice] 20#20: gracefully shutting down
+2023/03/08 12:00:07 [notice] 21#21: gracefully shutting down
+2023/03/08 12:00:07 [notice] 23#23: gracefully shutting down
+2023/03/08 12:00:07 [notice] 24#24: gracefully shutting down
+2023/03/08 12:00:07 [notice] 25#25: gracefully shutting down
+2023/03/08 12:00:07 [notice] 26#26: gracefully shutting down
+2023/03/08 12:00:07 [notice] 27#27: gracefully shutting down
+2023/03/08 12:00:07 [notice] 29#29: gracefully shutting down
+2023/03/08 12:00:07 [notice] 23#23: exiting
+2023/03/08 12:00:07 [notice] 24#24: exiting
+2023/03/08 12:00:07 [notice] 32#32: gracefully shutting down
+2023/03/08 12:00:07 [notice] 25#25: exiting
+2023/03/08 12:00:07 [notice] 26#26: exiting
+2023/03/08 12:00:07 [notice] 27#27: exiting
+2023/03/08 12:00:07 [notice] 29#29: exiting
+2023/03/08 12:00:07 [notice] 32#32: exiting
+2023/03/08 12:00:07 [notice] 30#30: gracefully shutting down
+2023/03/08 12:00:07 [notice] 30#30: exiting
+2023/03/08 12:00:07 [notice] 28#28: gracefully shutting down
+2023/03/08 12:00:07 [notice] 28#28: exiting
+2023/03/08 12:00:07 [notice] 31#31: gracefully shutting down
+2023/03/08 12:00:07 [notice] 31#31: exiting
+2023/03/08 12:00:07 [notice] 20#20: exiting
+2023/03/08 12:00:07 [notice] 26#26: exit
+2023/03/08 12:00:07 [notice] 29#29: exit
+2023/03/08 12:00:07 [notice] 23#23: exit
+2023/03/08 12:00:07 [notice] 22#22: exit
+2023/03/08 12:00:07 [notice] 24#24: exit
+2023/03/08 12:00:07 [notice] 25#25: exit
+2023/03/08 12:00:07 [notice] 32#32: exit
+2023/03/08 12:00:07 [notice] 27#27: exit
+2023/03/08 12:00:07 [notice] 21#21: exiting
+2023/03/08 12:00:07 [notice] 30#30: exit
+2023/03/08 12:00:07 [notice] 28#28: exit
+2023/03/08 12:00:07 [notice] 31#31: exit
+2023/03/08 12:00:07 [notice] 34#34: gracefully shutting down
+2023/03/08 12:00:07 [notice] 34#34: exiting
+2023/03/08 12:00:07 [notice] 33#33: gracefully shutting down
+2023/03/08 12:00:07 [notice] 20#20: exit
+2023/03/08 12:00:07 [notice] 33#33: exiting
+2023/03/08 12:00:07 [notice] 21#21: exit
+2023/03/08 12:00:07 [notice] 34#34: exit
+2023/03/08 12:00:07 [notice] 33#33: exit
+2023/03/08 12:00:07 [notice] 35#35: gracefully shutting down
+2023/03/08 12:00:07 [notice] 35#35: exiting
+2023/03/08 12:00:07 [notice] 35#35: exit
+2023/03/08 12:00:07 [notice] 1#1: signal 17 (SIGCHLD) received from 32
+2023/03/08 12:00:07 [notice] 1#1: worker process 32 exited with code 0
+2023/03/08 12:00:07 [notice] 1#1: worker process 22 exited with code 0
+2023/03/08 12:00:07 [notice] 1#1: signal 29 (SIGIO) received
+2023/03/08 12:00:07 [notice] 1#1: signal 17 (SIGCHLD) received from 22
+2023/03/08 12:00:07 [notice] 1#1: signal 17 (SIGCHLD) received from 30
+2023/03/08 12:00:07 [notice] 1#1: worker process 30 exited with code 0
+2023/03/08 12:00:07 [notice] 1#1: signal 29 (SIGIO) received
+2023/03/08 12:00:07 [notice] 1#1: signal 17 (SIGCHLD) received from 20
+2023/03/08 12:00:07 [notice] 1#1: worker process 20 exited with code 0
+2023/03/08 12:00:07 [notice] 1#1: signal 29 (SIGIO) received
+2023/03/08 12:00:07 [notice] 1#1: signal 17 (SIGCHLD) received from 21
+2023/03/08 12:00:07 [notice] 1#1: worker process 21 exited with code 0
+2023/03/08 12:00:07 [notice] 1#1: signal 29 (SIGIO) received
+2023/03/08 12:00:07 [notice] 1#1: signal 17 (SIGCHLD) received from 33
+2023/03/08 12:00:07 [notice] 1#1: worker process 33 exited with code 0
+2023/03/08 12:00:07 [notice] 1#1: signal 29 (SIGIO) received
+2023/03/08 12:00:07 [notice] 1#1: signal 17 (SIGCHLD) received from 29
+2023/03/08 12:00:07 [notice] 1#1: worker process 29 exited with code 0
+2023/03/08 12:00:07 [notice] 1#1: signal 29 (SIGIO) received
+2023/03/08 12:00:07 [notice] 1#1: signal 17 (SIGCHLD) received from 24
+2023/03/08 12:00:07 [notice] 1#1: worker process 24 exited with code 0
+2023/03/08 12:00:07 [notice] 1#1: signal 29 (SIGIO) received
+2023/03/08 12:00:07 [notice] 1#1: signal 17 (SIGCHLD) received from 26
+2023/03/08 12:00:07 [notice] 1#1: worker process 26 exited with code 0
+2023/03/08 12:00:07 [notice] 1#1: signal 29 (SIGIO) received
+2023/03/08 12:00:07 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2023/03/08 12:00:07 [notice] 1#1: worker process 23 exited with code 0
+2023/03/08 12:00:07 [notice] 1#1: worker process 27 exited with code 0
+2023/03/08 12:00:07 [notice] 1#1: signal 29 (SIGIO) received
+2023/03/08 12:00:07 [notice] 1#1: signal 17 (SIGCHLD) received from 27
+2023/03/08 12:00:07 [notice] 1#1: signal 17 (SIGCHLD) received from 31
+2023/03/08 12:00:07 [notice] 1#1: worker process 31 exited with code 0
+2023/03/08 12:00:07 [notice] 1#1: signal 29 (SIGIO) received
+2023/03/08 12:00:07 [notice] 1#1: signal 17 (SIGCHLD) received from 28
+2023/03/08 12:00:07 [notice] 1#1: worker process 28 exited with code 0
+2023/03/08 12:00:07 [notice] 1#1: signal 29 (SIGIO) received
+2023/03/08 12:00:07 [notice] 1#1: signal 17 (SIGCHLD) received from 35
+2023/03/08 12:00:07 [notice] 1#1: worker process 35 exited with code 0
+2023/03/08 12:00:07 [notice] 1#1: signal 29 (SIGIO) received
+2023/03/08 12:00:07 [notice] 1#1: signal 17 (SIGCHLD) received from 25
+2023/03/08 12:00:07 [notice] 1#1: worker process 25 exited with code 0
+2023/03/08 12:00:07 [notice] 1#1: signal 29 (SIGIO) received
+2023/03/08 12:00:07 [notice] 1#1: signal 17 (SIGCHLD) received from 34
+2023/03/08 12:00:07 [notice] 1#1: worker process 34 exited with code 0
+2023/03/08 12:00:07 [notice] 1#1: exit
+2023/03/08 12:00:10 [notice] 1#1: using the "epoll" event method
+2023/03/08 12:00:10 [notice] 1#1: nginx/1.23.3
+2023/03/08 12:00:10 [notice] 1#1: built by gcc 12.2.1 20220924 (Alpine 12.2.1_git20220924-r4) 
+2023/03/08 12:00:10 [notice] 1#1: OS: Linux 5.19.0-35-generic
+2023/03/08 12:00:10 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/03/08 12:00:10 [notice] 1#1: start worker processes
+2023/03/08 12:00:10 [notice] 1#1: start worker process 20
+2023/03/08 12:00:10 [notice] 1#1: start worker process 21
+2023/03/08 12:00:10 [notice] 1#1: start worker process 22
+2023/03/08 12:00:10 [notice] 1#1: start worker process 23
+2023/03/08 12:00:10 [notice] 1#1: start worker process 24
+2023/03/08 12:00:10 [notice] 1#1: start worker process 25
+2023/03/08 12:00:10 [notice] 1#1: start worker process 26
+2023/03/08 12:00:10 [notice] 1#1: start worker process 27
+2023/03/08 12:00:10 [notice] 1#1: start worker process 28
+2023/03/08 12:00:10 [notice] 1#1: start worker process 29
+2023/03/08 12:00:10 [notice] 1#1: start worker process 30
+2023/03/08 12:00:10 [notice] 1#1: start worker process 31
+2023/03/08 12:00:10 [notice] 1#1: start worker process 32
+2023/03/08 12:00:10 [notice] 1#1: start worker process 33
+2023/03/08 12:00:10 [notice] 1#1: start worker process 34
+2023/03/08 12:00:10 [notice] 1#1: start worker process 35
+2023/03/08 12:00:25 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2023/03/08 12:00:25 [notice] 20#20: gracefully shutting down
+2023/03/08 12:00:25 [notice] 22#22: gracefully shutting down
+2023/03/08 12:00:25 [notice] 21#21: gracefully shutting down
+2023/03/08 12:00:25 [notice] 20#20: exiting
+2023/03/08 12:00:25 [notice] 22#22: exiting
+2023/03/08 12:00:25 [notice] 27#27: gracefully shutting down
+2023/03/08 12:00:25 [notice] 24#24: gracefully shutting down
+2023/03/08 12:00:25 [notice] 28#28: gracefully shutting down
+2023/03/08 12:00:25 [notice] 25#25: gracefully shutting down
+2023/03/08 12:00:25 [notice] 21#21: exiting
+2023/03/08 12:00:25 [notice] 29#29: gracefully shutting down
+2023/03/08 12:00:25 [notice] 30#30: gracefully shutting down
+2023/03/08 12:00:25 [notice] 32#32: gracefully shutting down
+2023/03/08 12:00:25 [notice] 33#33: gracefully shutting down
+2023/03/08 12:00:25 [notice] 34#34: gracefully shutting down
+2023/03/08 12:00:25 [notice] 27#27: exiting
+2023/03/08 12:00:25 [notice] 24#24: exiting
+2023/03/08 12:00:25 [notice] 28#28: exiting
+2023/03/08 12:00:25 [notice] 25#25: exiting
+2023/03/08 12:00:25 [notice] 29#29: exiting
+2023/03/08 12:00:25 [notice] 33#33: exiting
+2023/03/08 12:00:25 [notice] 30#30: exiting
+2023/03/08 12:00:25 [notice] 34#34: exiting
+2023/03/08 12:00:25 [notice] 32#32: exiting
+2023/03/08 12:00:25 [notice] 23#23: gracefully shutting down
+2023/03/08 12:00:25 [notice] 23#23: exiting
+2023/03/08 12:00:25 [notice] 35#35: gracefully shutting down
+2023/03/08 12:00:25 [notice] 35#35: exiting
+2023/03/08 12:00:25 [notice] 20#20: exit
+2023/03/08 12:00:25 [notice] 28#28: exit
+2023/03/08 12:00:25 [notice] 24#24: exit
+2023/03/08 12:00:25 [notice] 27#27: exit
+2023/03/08 12:00:25 [notice] 22#22: exit
+2023/03/08 12:00:25 [notice] 29#29: exit
+2023/03/08 12:00:25 [notice] 32#32: exit
+2023/03/08 12:00:25 [notice] 21#21: exit
+2023/03/08 12:00:25 [notice] 30#30: exit
+2023/03/08 12:00:25 [notice] 25#25: exit
+2023/03/08 12:00:25 [notice] 34#34: exit
+2023/03/08 12:00:25 [notice] 33#33: exit
+2023/03/08 12:00:25 [notice] 23#23: exit
+2023/03/08 12:00:25 [notice] 35#35: exit
+2023/03/08 12:00:25 [notice] 26#26: gracefully shutting down
+2023/03/08 12:00:25 [notice] 26#26: exiting
+2023/03/08 12:00:25 [notice] 31#31: gracefully shutting down
+2023/03/08 12:00:25 [notice] 31#31: exiting
+2023/03/08 12:00:25 [notice] 26#26: exit
+2023/03/08 12:00:25 [notice] 31#31: exit
+2023/03/08 12:00:25 [notice] 1#1: signal 17 (SIGCHLD) received from 30
+2023/03/08 12:00:25 [notice] 1#1: worker process 30 exited with code 0
+2023/03/08 12:00:25 [notice] 1#1: signal 29 (SIGIO) received
+2023/03/08 12:00:25 [notice] 1#1: signal 17 (SIGCHLD) received from 25
+2023/03/08 12:00:25 [notice] 1#1: worker process 25 exited with code 0
+2023/03/08 12:00:25 [notice] 1#1: signal 29 (SIGIO) received
+2023/03/08 12:00:25 [notice] 1#1: signal 17 (SIGCHLD) received from 34
+2023/03/08 12:00:25 [notice] 1#1: worker process 34 exited with code 0
+2023/03/08 12:00:25 [notice] 1#1: signal 29 (SIGIO) received
+2023/03/08 12:00:25 [notice] 1#1: signal 17 (SIGCHLD) received from 26
+2023/03/08 12:00:25 [notice] 1#1: worker process 24 exited with code 0
+2023/03/08 12:00:25 [notice] 1#1: worker process 26 exited with code 0
+2023/03/08 12:00:25 [notice] 1#1: signal 29 (SIGIO) received
+2023/03/08 12:00:25 [notice] 1#1: signal 17 (SIGCHLD) received from 32
+2023/03/08 12:00:25 [notice] 1#1: worker process 27 exited with code 0
+2023/03/08 12:00:25 [notice] 1#1: worker process 32 exited with code 0
+2023/03/08 12:00:25 [notice] 1#1: signal 29 (SIGIO) received
+2023/03/08 12:00:25 [notice] 1#1: signal 17 (SIGCHLD) received from 27
+2023/03/08 12:00:25 [notice] 1#1: signal 17 (SIGCHLD) received from 29
+2023/03/08 12:00:25 [notice] 1#1: worker process 29 exited with code 0
+2023/03/08 12:00:25 [notice] 1#1: signal 29 (SIGIO) received
+2023/03/08 12:00:25 [notice] 1#1: signal 17 (SIGCHLD) received from 35
+2023/03/08 12:00:25 [notice] 1#1: worker process 35 exited with code 0
+2023/03/08 12:00:25 [notice] 1#1: signal 29 (SIGIO) received
+2023/03/08 12:00:25 [notice] 1#1: signal 17 (SIGCHLD) received from 31
+2023/03/08 12:00:25 [notice] 1#1: worker process 22 exited with code 0
+2023/03/08 12:00:25 [notice] 1#1: worker process 31 exited with code 0
+2023/03/08 12:00:25 [notice] 1#1: signal 29 (SIGIO) received
+2023/03/08 12:00:25 [notice] 1#1: signal 17 (SIGCHLD) received from 28
+2023/03/08 12:00:25 [notice] 1#1: worker process 28 exited with code 0
+2023/03/08 12:00:25 [notice] 1#1: signal 29 (SIGIO) received
+2023/03/08 12:00:25 [notice] 1#1: signal 17 (SIGCHLD) received from 33
+2023/03/08 12:00:25 [notice] 1#1: worker process 33 exited with code 0
+2023/03/08 12:00:25 [notice] 1#1: signal 29 (SIGIO) received
+2023/03/08 12:00:25 [notice] 1#1: signal 17 (SIGCHLD) received from 21
+2023/03/08 12:00:25 [notice] 1#1: worker process 21 exited with code 0
+2023/03/08 12:00:25 [notice] 1#1: signal 29 (SIGIO) received
+2023/03/08 12:00:25 [notice] 1#1: signal 17 (SIGCHLD) received from 20
+2023/03/08 12:00:25 [notice] 1#1: worker process 20 exited with code 0
+2023/03/08 12:00:25 [notice] 1#1: signal 29 (SIGIO) received
+2023/03/08 12:00:25 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2023/03/08 12:00:25 [notice] 1#1: worker process 23 exited with code 0
+2023/03/08 12:00:25 [notice] 1#1: exit
+2023/03/08 12:00:29 [notice] 1#1: using the "epoll" event method
+2023/03/08 12:00:29 [notice] 1#1: nginx/1.23.3
+2023/03/08 12:00:29 [notice] 1#1: built by gcc 12.2.1 20220924 (Alpine 12.2.1_git20220924-r4) 
+2023/03/08 12:00:29 [notice] 1#1: OS: Linux 5.19.0-35-generic
+2023/03/08 12:00:29 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/03/08 12:00:29 [notice] 1#1: start worker processes
+2023/03/08 12:00:29 [notice] 1#1: start worker process 20
+2023/03/08 12:00:29 [notice] 1#1: start worker process 21
+2023/03/08 12:00:29 [notice] 1#1: start worker process 22
+2023/03/08 12:00:29 [notice] 1#1: start worker process 23
+2023/03/08 12:00:29 [notice] 1#1: start worker process 24
+2023/03/08 12:00:29 [notice] 1#1: start worker process 25
+2023/03/08 12:00:29 [notice] 1#1: start worker process 26
+2023/03/08 12:00:29 [notice] 1#1: start worker process 27
+2023/03/08 12:00:29 [notice] 1#1: start worker process 28
+2023/03/08 12:00:29 [notice] 1#1: start worker process 29
+2023/03/08 12:00:29 [notice] 1#1: start worker process 30
+2023/03/08 12:00:29 [notice] 1#1: start worker process 31
+2023/03/08 12:00:29 [notice] 1#1: start worker process 32
+2023/03/08 12:00:29 [notice] 1#1: start worker process 33
+2023/03/08 12:00:29 [notice] 1#1: start worker process 34
+2023/03/08 12:00:29 [notice] 1#1: start worker process 35
+2023/03/08 12:06:04 [error] 24#24: *12 open() "/var/www/html/drupal/favicon.ico" failed (2: No such file or directory), client: 10.12.0.20, server: ~^(?<subdomain>[^.]+)\.tarefa21sarafb\.dedyn\.io$, request: "GET /favicon.ico HTTP/1.1", host: "drupal.tarefa21sarafb.dedyn.io", referrer: "https://drupal.tarefa21sarafb.dedyn.io/"
+2023/03/08 12:09:15 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2023/03/08 12:09:15 [notice] 20#20: gracefully shutting down
+2023/03/08 12:09:15 [notice] 21#21: gracefully shutting down
+2023/03/08 12:09:15 [notice] 20#20: exiting
+2023/03/08 12:09:15 [notice] 21#21: exiting
+2023/03/08 12:09:15 [notice] 23#23: gracefully shutting down
+2023/03/08 12:09:15 [notice] 22#22: gracefully shutting down
+2023/03/08 12:09:15 [notice] 24#24: gracefully shutting down
+2023/03/08 12:09:15 [notice] 25#25: gracefully shutting down
+2023/03/08 12:09:15 [notice] 30#30: gracefully shutting down
+2023/03/08 12:09:15 [notice] 27#27: gracefully shutting down
+2023/03/08 12:09:15 [notice] 26#26: gracefully shutting down
+2023/03/08 12:09:15 [notice] 28#28: gracefully shutting down
+2023/03/08 12:09:15 [notice] 29#29: gracefully shutting down
+2023/03/08 12:09:15 [notice] 31#31: gracefully shutting down
+2023/03/08 12:09:15 [notice] 23#23: exiting
+2023/03/08 12:09:15 [notice] 22#22: exiting
+2023/03/08 12:09:15 [notice] 32#32: gracefully shutting down
+2023/03/08 12:09:15 [notice] 24#24: exiting
+2023/03/08 12:09:15 [notice] 25#25: exiting
+2023/03/08 12:09:15 [notice] 30#30: exiting
+2023/03/08 12:09:15 [notice] 27#27: exiting
+2023/03/08 12:09:15 [notice] 26#26: exiting
+2023/03/08 12:09:15 [notice] 28#28: exiting
+2023/03/08 12:09:15 [notice] 29#29: exiting
+2023/03/08 12:09:15 [notice] 31#31: exiting
+2023/03/08 12:09:15 [notice] 32#32: exiting
+2023/03/08 12:09:15 [notice] 33#33: gracefully shutting down
+2023/03/08 12:09:15 [notice] 34#34: gracefully shutting down
+2023/03/08 12:09:15 [notice] 33#33: exiting
+2023/03/08 12:09:15 [notice] 34#34: exiting
+2023/03/08 12:09:15 [notice] 23#23: exit
+2023/03/08 12:09:15 [notice] 20#20: exit
+2023/03/08 12:09:15 [notice] 27#27: exit
+2023/03/08 12:09:15 [notice] 22#22: exit
+2023/03/08 12:09:15 [notice] 25#25: exit
+2023/03/08 12:09:15 [notice] 21#21: exit
+2023/03/08 12:09:15 [notice] 28#28: exit
+2023/03/08 12:09:15 [notice] 24#24: exit
+2023/03/08 12:09:15 [notice] 26#26: exit
+2023/03/08 12:09:15 [notice] 29#29: exit
+2023/03/08 12:09:15 [notice] 30#30: exit
+2023/03/08 12:09:15 [notice] 32#32: exit
+2023/03/08 12:09:15 [notice] 31#31: exit
+2023/03/08 12:09:15 [notice] 34#34: exit
+2023/03/08 12:09:15 [notice] 33#33: exit
+2023/03/08 12:09:15 [notice] 35#35: gracefully shutting down
+2023/03/08 12:09:15 [notice] 35#35: exiting
+2023/03/08 12:09:15 [notice] 35#35: exit
+2023/03/08 12:09:15 [notice] 1#1: signal 17 (SIGCHLD) received from 21
+2023/03/08 12:09:15 [notice] 1#1: worker process 21 exited with code 0
+2023/03/08 12:09:15 [notice] 1#1: signal 29 (SIGIO) received
+2023/03/08 12:09:15 [notice] 1#1: signal 17 (SIGCHLD) received from 31
+2023/03/08 12:09:15 [notice] 1#1: worker process 30 exited with code 0
+2023/03/08 12:09:15 [notice] 1#1: worker process 31 exited with code 0
+2023/03/08 12:09:15 [notice] 1#1: signal 29 (SIGIO) received
+2023/03/08 12:09:15 [notice] 1#1: signal 17 (SIGCHLD) received from 33
+2023/03/08 12:09:15 [notice] 1#1: worker process 25 exited with code 0
+2023/03/08 12:09:15 [notice] 1#1: worker process 33 exited with code 0
+2023/03/08 12:09:15 [notice] 1#1: signal 29 (SIGIO) received
+2023/03/08 12:09:15 [notice] 1#1: signal 17 (SIGCHLD) received from 22
+2023/03/08 12:09:15 [notice] 1#1: worker process 22 exited with code 0
+2023/03/08 12:09:15 [notice] 1#1: worker process 23 exited with code 0
+2023/03/08 12:09:15 [notice] 1#1: signal 29 (SIGIO) received
+2023/03/08 12:09:15 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2023/03/08 12:09:15 [notice] 1#1: signal 17 (SIGCHLD) received from 27
+2023/03/08 12:09:15 [notice] 1#1: worker process 27 exited with code 0
+2023/03/08 12:09:15 [notice] 1#1: signal 29 (SIGIO) received
+2023/03/08 12:09:15 [notice] 1#1: signal 17 (SIGCHLD) received from 32
+2023/03/08 12:09:15 [notice] 1#1: worker process 32 exited with code 0
+2023/03/08 12:09:15 [notice] 1#1: signal 29 (SIGIO) received
+2023/03/08 12:09:15 [notice] 1#1: signal 17 (SIGCHLD) received from 34
+2023/03/08 12:09:15 [notice] 1#1: worker process 34 exited with code 0
+2023/03/08 12:09:15 [notice] 1#1: signal 29 (SIGIO) received
+2023/03/08 12:09:15 [notice] 1#1: signal 17 (SIGCHLD) received from 24
+2023/03/08 12:09:15 [notice] 1#1: worker process 20 exited with code 0
+2023/03/08 12:09:15 [notice] 1#1: worker process 24 exited with code 0
+2023/03/08 12:09:15 [notice] 1#1: signal 29 (SIGIO) received
+2023/03/08 12:09:15 [notice] 1#1: signal 17 (SIGCHLD) received from 20
+2023/03/08 12:09:15 [notice] 1#1: signal 17 (SIGCHLD) received from 35
+2023/03/08 12:09:15 [notice] 1#1: worker process 35 exited with code 0
+2023/03/08 12:09:15 [notice] 1#1: signal 29 (SIGIO) received
+2023/03/08 12:09:15 [notice] 1#1: signal 17 (SIGCHLD) received from 29
+2023/03/08 12:09:15 [notice] 1#1: worker process 29 exited with code 0
+2023/03/08 12:09:15 [notice] 1#1: signal 29 (SIGIO) received
+2023/03/08 12:09:15 [notice] 1#1: signal 17 (SIGCHLD) received from 26
+2023/03/08 12:09:15 [notice] 1#1: worker process 26 exited with code 0
+2023/03/08 12:09:15 [notice] 1#1: signal 29 (SIGIO) received
+2023/03/08 12:09:15 [notice] 1#1: signal 17 (SIGCHLD) received from 28
+2023/03/08 12:09:15 [notice] 1#1: worker process 28 exited with code 0
+2023/03/08 12:09:15 [notice] 1#1: exit
+2023/03/08 12:09:18 [notice] 1#1: using the "epoll" event method
+2023/03/08 12:09:18 [notice] 1#1: nginx/1.23.3
+2023/03/08 12:09:18 [notice] 1#1: built by gcc 12.2.1 20220924 (Alpine 12.2.1_git20220924-r4) 
+2023/03/08 12:09:18 [notice] 1#1: OS: Linux 5.19.0-35-generic
+2023/03/08 12:09:18 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/03/08 12:09:18 [notice] 1#1: start worker processes
+2023/03/08 12:09:18 [notice] 1#1: start worker process 20
+2023/03/08 12:09:18 [notice] 1#1: start worker process 21
+2023/03/08 12:09:18 [notice] 1#1: start worker process 22
+2023/03/08 12:09:18 [notice] 1#1: start worker process 23
+2023/03/08 12:09:18 [notice] 1#1: start worker process 24
+2023/03/08 12:09:18 [notice] 1#1: start worker process 25
+2023/03/08 12:09:18 [notice] 1#1: start worker process 26
+2023/03/08 12:09:18 [notice] 1#1: start worker process 27
+2023/03/08 12:09:18 [notice] 1#1: start worker process 28
+2023/03/08 12:09:18 [notice] 1#1: start worker process 29
+2023/03/08 12:09:18 [notice] 1#1: start worker process 30
+2023/03/08 12:09:18 [notice] 1#1: start worker process 31
+2023/03/08 12:09:18 [notice] 1#1: start worker process 32
+2023/03/08 12:09:18 [notice] 1#1: start worker process 33
+2023/03/08 12:09:18 [notice] 1#1: start worker process 34
+2023/03/08 12:09:18 [notice] 1#1: start worker process 35
+2023/03/08 12:31:25 [error] 20#20: *128 open() "/var/www/html/drupal/sites/default/files/styles/large_3_2_2x/public/oatmeal-fruit-syrup-topping.jpg" failed (2: No such file or directory), client: 10.12.0.20, server: ~^(?<subdomain>[^.]+)\.tarefa21sarafb\.dedyn\.io$, request: "GET /sites/default/files/styles/large_3_2_2x/public/oatmeal-fruit-syrup-topping.jpg?itok=f7XBjbbu HTTP/1.1", host: "drupal.tarefa21sarafb.dedyn.io", referrer: "https://drupal.tarefa21sarafb.dedyn.io/"
+2023/03/08 12:31:25 [error] 20#20: *129 open() "/var/www/html/drupal/sites/default/files/styles/square_large/public/borscht-with-pork-ribs-umami.jpg" failed (2: No such file or directory), client: 10.12.0.20, server: ~^(?<subdomain>[^.]+)\.tarefa21sarafb\.dedyn\.io$, request: "GET /sites/default/files/styles/square_large/public/borscht-with-pork-ribs-umami.jpg?itok=ucegsps3 HTTP/1.1", host: "drupal.tarefa21sarafb.dedyn.io", referrer: "https://drupal.tarefa21sarafb.dedyn.io/"
+2023/03/08 12:31:25 [error] 21#21: *130 open() "/var/www/html/drupal/sites/default/files/styles/square_large/public/chili-sauce-umami.jpg" failed (2: No such file or directory), client: 10.12.0.20, server: ~^(?<subdomain>[^.]+)\.tarefa21sarafb\.dedyn\.io$, request: "GET /sites/default/files/styles/square_large/public/chili-sauce-umami.jpg?itok=0CxIfaKx HTTP/1.1", host: "drupal.tarefa21sarafb.dedyn.io", referrer: "https://drupal.tarefa21sarafb.dedyn.io/"
+2023/03/08 12:31:25 [error] 20#20: *131 open() "/var/www/html/drupal/sites/default/files/styles/large_3_2_2x/public/mediterranean-quiche-umami.jpg" failed (2: No such file or directory), client: 10.12.0.20, server: ~^(?<subdomain>[^.]+)\.tarefa21sarafb\.dedyn\.io$, request: "GET /sites/default/files/styles/large_3_2_2x/public/mediterranean-quiche-umami.jpg?itok=zlEg6aoD HTTP/1.1", host: "drupal.tarefa21sarafb.dedyn.io", referrer: "https://drupal.tarefa21sarafb.dedyn.io/"
+2023/03/08 12:31:25 [error] 21#21: *132 open() "/var/www/html/drupal/sites/default/files/styles/large_3_2_2x/public/vegan-chocolate-nut-brownies.jpg" failed (2: No such file or directory), client: 10.12.0.20, server: ~^(?<subdomain>[^.]+)\.tarefa21sarafb\.dedyn\.io$, request: "GET /sites/default/files/styles/large_3_2_2x/public/vegan-chocolate-nut-brownies.jpg?itok=v5Mp8Oad HTTP/1.1", host: "drupal.tarefa21sarafb.dedyn.io", referrer: "https://drupal.tarefa21sarafb.dedyn.io/"
+2023/03/08 12:31:25 [error] 20#20: *128 open() "/var/www/html/drupal/sites/default/files/styles/large_3_2_2x/public/veggie-pasta-bake-umami.jpg" failed (2: No such file or directory), client: 10.12.0.20, server: ~^(?<subdomain>[^.]+)\.tarefa21sarafb\.dedyn\.io$, request: "GET /sites/default/files/styles/large_3_2_2x/public/veggie-pasta-bake-umami.jpg?itok=R20oQpSm HTTP/1.1", host: "drupal.tarefa21sarafb.dedyn.io", referrer: "https://drupal.tarefa21sarafb.dedyn.io/"
+2023/03/08 12:31:25 [error] 21#21: *130 open() "/var/www/html/drupal/sites/default/files/styles/large_3_2_2x/public/watercress-soup-umami.jpg" failed (2: No such file or directory), client: 10.12.0.20, server: ~^(?<subdomain>[^.]+)\.tarefa21sarafb\.dedyn\.io$, request: "GET /sites/default/files/styles/large_3_2_2x/public/watercress-soup-umami.jpg?itok=-oSXWDn9 HTTP/1.1", host: "drupal.tarefa21sarafb.dedyn.io", referrer: "https://drupal.tarefa21sarafb.dedyn.io/"
+2023/03/08 12:31:30 [error] 21#21: *130 open() "/var/www/html/drupal/sites/default/files/styles/medium_8_7/public/umami-bundle.png" failed (2: No such file or directory), client: 10.12.0.20, server: ~^(?<subdomain>[^.]+)\.tarefa21sarafb\.dedyn\.io$, request: "GET /sites/default/files/styles/medium_8_7/public/umami-bundle.png?itok=XBPM8A4Y HTTP/1.1", host: "drupal.tarefa21sarafb.dedyn.io", referrer: "https://drupal.tarefa21sarafb.dedyn.io/"
+2023/03/08 12:31:57 [error] 20#20: *131 open() "/var/www/html/drupal/sites/default/files/styles/large_3_2_2x/public/oatmeal-fruit-syrup-topping.jpg" failed (2: No such file or directory), client: 10.12.0.20, server: ~^(?<subdomain>[^.]+)\.tarefa21sarafb\.dedyn\.io$, request: "GET /sites/default/files/styles/large_3_2_2x/public/oatmeal-fruit-syrup-topping.jpg?itok=f7XBjbbu HTTP/1.1", host: "drupal.tarefa21sarafb.dedyn.io", referrer: "https://drupal.tarefa21sarafb.dedyn.io/"
+2023/03/08 12:31:57 [error] 21#21: *132 open() "/var/www/html/drupal/sites/default/files/styles/square_large/public/borscht-with-pork-ribs-umami.jpg" failed (2: No such file or directory), client: 10.12.0.20, server: ~^(?<subdomain>[^.]+)\.tarefa21sarafb\.dedyn\.io$, request: "GET /sites/default/files/styles/square_large/public/borscht-with-pork-ribs-umami.jpg?itok=ucegsps3 HTTP/1.1", host: "drupal.tarefa21sarafb.dedyn.io", referrer: "https://drupal.tarefa21sarafb.dedyn.io/"
+2023/03/08 12:31:57 [error] 20#20: *128 open() "/var/www/html/drupal/sites/default/files/styles/square_large/public/chili-sauce-umami.jpg" failed (2: No such file or directory), client: 10.12.0.20, server: ~^(?<subdomain>[^.]+)\.tarefa21sarafb\.dedyn\.io$, request: "GET /sites/default/files/styles/square_large/public/chili-sauce-umami.jpg?itok=0CxIfaKx HTTP/1.1", host: "drupal.tarefa21sarafb.dedyn.io", referrer: "https://drupal.tarefa21sarafb.dedyn.io/"
+2023/03/08 12:31:57 [error] 20#20: *80 open() "/var/www/html/drupal/sites/default/files/styles/large_3_2_2x/public/mediterranean-quiche-umami.jpg" failed (2: No such file or directory), client: 10.12.0.20, server: ~^(?<subdomain>[^.]+)\.tarefa21sarafb\.dedyn\.io$, request: "GET /sites/default/files/styles/large_3_2_2x/public/mediterranean-quiche-umami.jpg?itok=zlEg6aoD HTTP/1.1", host: "drupal.tarefa21sarafb.dedyn.io", referrer: "https://drupal.tarefa21sarafb.dedyn.io/"
+2023/03/08 12:31:57 [error] 20#20: *129 open() "/var/www/html/drupal/sites/default/files/styles/large_3_2_2x/public/vegan-chocolate-nut-brownies.jpg" failed (2: No such file or directory), client: 10.12.0.20, server: ~^(?<subdomain>[^.]+)\.tarefa21sarafb\.dedyn\.io$, request: "GET /sites/default/files/styles/large_3_2_2x/public/vegan-chocolate-nut-brownies.jpg?itok=v5Mp8Oad HTTP/1.1", host: "drupal.tarefa21sarafb.dedyn.io", referrer: "https://drupal.tarefa21sarafb.dedyn.io/"
+2023/03/08 12:31:57 [error] 21#21: *130 open() "/var/www/html/drupal/sites/default/files/styles/large_3_2_2x/public/veggie-pasta-bake-umami.jpg" failed (2: No such file or directory), client: 10.12.0.20, server: ~^(?<subdomain>[^.]+)\.tarefa21sarafb\.dedyn\.io$, request: "GET /sites/default/files/styles/large_3_2_2x/public/veggie-pasta-bake-umami.jpg?itok=R20oQpSm HTTP/1.1", host: "drupal.tarefa21sarafb.dedyn.io", referrer: "https://drupal.tarefa21sarafb.dedyn.io/"
+2023/03/08 12:31:57 [error] 20#20: *131 open() "/var/www/html/drupal/sites/default/files/styles/large_3_2_2x/public/watercress-soup-umami.jpg" failed (2: No such file or directory), client: 10.12.0.20, server: ~^(?<subdomain>[^.]+)\.tarefa21sarafb\.dedyn\.io$, request: "GET /sites/default/files/styles/large_3_2_2x/public/watercress-soup-umami.jpg?itok=-oSXWDn9 HTTP/1.1", host: "drupal.tarefa21sarafb.dedyn.io", referrer: "https://drupal.tarefa21sarafb.dedyn.io/"
+2023/03/08 12:31:57 [error] 21#21: *132 open() "/var/www/html/drupal/sites/default/files/styles/medium_8_7/public/umami-bundle.png" failed (2: No such file or directory), client: 10.12.0.20, server: ~^(?<subdomain>[^.]+)\.tarefa21sarafb\.dedyn\.io$, request: "GET /sites/default/files/styles/medium_8_7/public/umami-bundle.png?itok=XBPM8A4Y HTTP/1.1", host: "drupal.tarefa21sarafb.dedyn.io", referrer: "https://drupal.tarefa21sarafb.dedyn.io/"
+2023/03/08 12:44:47 [notice] 1#1: using the "epoll" event method
+2023/03/08 12:44:47 [notice] 1#1: nginx/1.23.3
+2023/03/08 12:44:47 [notice] 1#1: built by gcc 12.2.1 20220924 (Alpine 12.2.1_git20220924-r4) 
+2023/03/08 12:44:47 [notice] 1#1: OS: Linux 5.15.0-1030-oracle
+2023/03/08 12:44:47 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/03/08 12:44:47 [notice] 1#1: start worker processes
+2023/03/08 12:44:47 [notice] 1#1: start worker process 20
+2023/03/08 12:44:47 [notice] 1#1: start worker process 21
+2023/03/08 12:45:05 [error] 20#20: *5 open() "/var/www/html/wordpress/favicon.ico" failed (2: No such file or directory), client: 193.144.43.230, server: ~^(?<subdomain>[^.]+)\.tarefa21sarafb\.dedyn\.io$, request: "GET /favicon.ico HTTP/1.1", host: "wordpress.tarefa21sarafb.dedyn.io", referrer: "https://wordpress.tarefa21sarafb.dedyn.io/wp-admin/install.php"
+2023/03/08 12:47:26 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2023/03/08 12:47:26 [notice] 21#21: gracefully shutting down
+2023/03/08 12:47:26 [notice] 20#20: gracefully shutting down
+2023/03/08 12:47:26 [notice] 20#20: exiting
+2023/03/08 12:47:26 [notice] 20#20: exit
+2023/03/08 12:47:26 [notice] 1#1: signal 17 (SIGCHLD) received from 20
+2023/03/08 12:47:26 [notice] 1#1: worker process 20 exited with code 0
+2023/03/08 12:47:26 [notice] 1#1: signal 29 (SIGIO) received
+2023/03/08 12:50:11 [notice] 1#1: using the "epoll" event method
+2023/03/08 12:50:11 [notice] 1#1: nginx/1.23.3
+2023/03/08 12:50:11 [notice] 1#1: built by gcc 12.2.1 20220924 (Alpine 12.2.1_git20220924-r4) 
+2023/03/08 12:50:11 [notice] 1#1: OS: Linux 5.15.0-1030-oracle
+2023/03/08 12:50:11 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/03/08 12:50:11 [notice] 1#1: start worker processes
+2023/03/08 12:50:11 [notice] 1#1: start worker process 20
+2023/03/08 12:50:11 [notice] 1#1: start worker process 21
+2023/03/08 12:50:50 [error] 20#20: *9 open() "/var/www/html/prestashop/favicon.ico" failed (2: No such file or directory), client: 193.144.43.230, server: ~^(?<subdomain>[^.]+)\.tarefa21sarafb\.dedyn\.io$, request: "GET /favicon.ico HTTP/1.1", host: "prestashop.tarefa21sarafb.dedyn.io", referrer: "https://prestashop.tarefa21sarafb.dedyn.io/"
+2023/03/08 12:51:00 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2023/03/08 12:51:00 [notice] 20#20: gracefully shutting down
+2023/03/08 12:51:00 [notice] 21#21: gracefully shutting down
+2023/03/08 12:52:57 [notice] 1#1: using the "epoll" event method
+2023/03/08 12:52:57 [notice] 1#1: nginx/1.23.3
+2023/03/08 12:52:57 [notice] 1#1: built by gcc 12.2.1 20220924 (Alpine 12.2.1_git20220924-r4) 
+2023/03/08 12:52:57 [notice] 1#1: OS: Linux 5.15.0-1030-oracle
+2023/03/08 12:52:57 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/03/08 12:52:57 [notice] 1#1: start worker processes
+2023/03/08 12:52:57 [notice] 1#1: start worker process 20
+2023/03/08 12:52:57 [notice] 1#1: start worker process 21
+2023/03/08 12:53:02 [warn] 21#21: *2 an upstream response is buffered to a temporary file /var/cache/nginx/fastcgi_temp/1/00/0000000001 while reading upstream, client: 193.144.43.230, server: ~^(?<subdomain>[^.]+)\.tarefa21sarafb\.dedyn\.io$, request: "GET /index.php?element=gif HTTP/1.1", upstream: "fastcgi://172.19.0.3:9000", host: "prestashop.tarefa21sarafb.dedyn.io", referrer: "https://prestashop.tarefa21sarafb.dedyn.io/"
+2023/03/08 12:53:02 [warn] 20#20: *7 an upstream response is buffered to a temporary file /var/cache/nginx/fastcgi_temp/2/00/0000000002 while reading upstream, client: 193.144.43.230, server: ~^(?<subdomain>[^.]+)\.tarefa21sarafb\.dedyn\.io$, request: "GET /index.php?element=font HTTP/1.1", upstream: "fastcgi://172.19.0.3:9000", host: "prestashop.tarefa21sarafb.dedyn.io", referrer: "https://prestashop.tarefa21sarafb.dedyn.io/index.php?element=css"
+2023/03/08 12:53:08 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2023/03/08 12:53:08 [notice] 21#21: gracefully shutting down
+2023/03/08 12:53:08 [notice] 21#21: exiting
+2023/03/08 12:53:08 [notice] 21#21: exit
+2023/03/08 12:53:08 [notice] 20#20: gracefully shutting down
+2023/03/08 12:53:08 [notice] 1#1: signal 17 (SIGCHLD) received from 21
+2023/03/08 12:53:08 [notice] 1#1: worker process 21 exited with code 0
+2023/03/08 12:53:08 [notice] 1#1: signal 29 (SIGIO) received
+2023/03/08 12:53:42 [notice] 1#1: using the "epoll" event method
+2023/03/08 12:53:42 [notice] 1#1: nginx/1.23.3
+2023/03/08 12:53:42 [notice] 1#1: built by gcc 12.2.1 20220924 (Alpine 12.2.1_git20220924-r4) 
+2023/03/08 12:53:42 [notice] 1#1: OS: Linux 5.15.0-1030-oracle
+2023/03/08 12:53:42 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/03/08 12:53:42 [notice] 1#1: start worker processes
+2023/03/08 12:53:42 [notice] 1#1: start worker process 20
+2023/03/08 12:53:42 [notice] 1#1: start worker process 21
+2023/03/08 12:53:45 [warn] 21#21: *2 an upstream response is buffered to a temporary file /var/cache/nginx/fastcgi_temp/1/00/0000000001 while reading upstream, client: 193.144.43.230, server: ~^(?<subdomain>[^.]+)\.tarefa21sarafb\.dedyn\.io$, request: "GET /index.php?element=gif HTTP/1.1", upstream: "fastcgi://172.19.0.3:9000", host: "prestashop.tarefa21sarafb.dedyn.io", referrer: "https://prestashop.tarefa21sarafb.dedyn.io/"
+2023/03/08 12:53:46 [warn] 20#20: *7 an upstream response is buffered to a temporary file /var/cache/nginx/fastcgi_temp/2/00/0000000002 while reading upstream, client: 193.144.43.230, server: ~^(?<subdomain>[^.]+)\.tarefa21sarafb\.dedyn\.io$, request: "GET /index.php?element=font HTTP/1.1", upstream: "fastcgi://172.19.0.3:9000", host: "prestashop.tarefa21sarafb.dedyn.io", referrer: "https://prestashop.tarefa21sarafb.dedyn.io/index.php?element=css"
+2023/03/08 12:53:49 [warn] 20#20: *6 an upstream response is buffered to a temporary file /var/cache/nginx/fastcgi_temp/3/00/0000000003 while reading upstream, client: 193.144.43.230, server: ~^(?<subdomain>[^.]+)\.tarefa21sarafb\.dedyn\.io$, request: "GET /index.php?element=font HTTP/1.1", upstream: "fastcgi://172.19.0.3:9000", host: "prestashop.tarefa21sarafb.dedyn.io", referrer: "https://prestashop.tarefa21sarafb.dedyn.io/index.php?element=css"
+2023/03/08 12:59:04 [error] 21#21: *202 open() "/var/www/html/drupal/sites/default/files/styles/scale_crop_7_3_large/public/veggie-pasta-bake-hero-umami.jpg" failed (2: No such file or directory), client: 193.144.43.230, server: ~^(?<subdomain>[^.]+)\.tarefa21sarafb\.dedyn\.io$, request: "GET /sites/default/files/styles/scale_crop_7_3_large/public/veggie-pasta-bake-hero-umami.jpg?itok=uj0VcD2l HTTP/1.1", host: "drupal.tarefa21sarafb.dedyn.io", referrer: "https://drupal.tarefa21sarafb.dedyn.io/"
+2023/03/08 12:59:04 [error] 21#21: *202 open() "/var/www/html/drupal/sites/default/files/styles/large_3_2_2x/public/oatmeal-fruit-syrup-topping.jpg" failed (2: No such file or directory), client: 193.144.43.230, server: ~^(?<subdomain>[^.]+)\.tarefa21sarafb\.dedyn\.io$, request: "GET /sites/default/files/styles/large_3_2_2x/public/oatmeal-fruit-syrup-topping.jpg?itok=hWCwaLmE HTTP/1.1", host: "drupal.tarefa21sarafb.dedyn.io", referrer: "https://drupal.tarefa21sarafb.dedyn.io/"
+2023/03/08 12:59:04 [error] 21#21: *87 open() "/var/www/html/drupal/sites/default/files/styles/square_large/public/borscht-with-pork-ribs-umami.jpg" failed (2: No such file or directory), client: 193.144.43.230, server: ~^(?<subdomain>[^.]+)\.tarefa21sarafb\.dedyn\.io$, request: "GET /sites/default/files/styles/square_large/public/borscht-with-pork-ribs-umami.jpg?itok=fp07Kegi HTTP/1.1", host: "drupal.tarefa21sarafb.dedyn.io", referrer: "https://drupal.tarefa21sarafb.dedyn.io/"
+2023/03/08 12:59:04 [error] 21#21: *205 open() "/var/www/html/drupal/sites/default/files/styles/square_large/public/chili-sauce-umami.jpg" failed (2: No such file or directory), client: 193.144.43.230, server: ~^(?<subdomain>[^.]+)\.tarefa21sarafb\.dedyn\.io$, request: "GET /sites/default/files/styles/square_large/public/chili-sauce-umami.jpg?itok=8DICDtPL HTTP/1.1", host: "drupal.tarefa21sarafb.dedyn.io", referrer: "https://drupal.tarefa21sarafb.dedyn.io/"
+2023/03/08 12:59:04 [error] 21#21: *205 open() "/var/www/html/drupal/sites/default/files/styles/large_3_2_2x/public/mediterranean-quiche-umami.jpg" failed (2: No such file or directory), client: 193.144.43.230, server: ~^(?<subdomain>[^.]+)\.tarefa21sarafb\.dedyn\.io$, request: "GET /sites/default/files/styles/large_3_2_2x/public/mediterranean-quiche-umami.jpg?itok=WUUGaYrc HTTP/1.1", host: "drupal.tarefa21sarafb.dedyn.io", referrer: "https://drupal.tarefa21sarafb.dedyn.io/"
+2023/03/08 12:59:04 [error] 21#21: *87 open() "/var/www/html/drupal/sites/default/files/styles/large_3_2_2x/public/vegan-chocolate-nut-brownies.jpg" failed (2: No such file or directory), client: 193.144.43.230, server: ~^(?<subdomain>[^.]+)\.tarefa21sarafb\.dedyn\.io$, request: "GET /sites/default/files/styles/large_3_2_2x/public/vegan-chocolate-nut-brownies.jpg?itok=WkRaYwAP HTTP/1.1", host: "drupal.tarefa21sarafb.dedyn.io", referrer: "https://drupal.tarefa21sarafb.dedyn.io/"
+2023/03/08 12:59:04 [error] 21#21: *206 open() "/var/www/html/drupal/sites/default/files/styles/large_3_2_2x/public/veggie-pasta-bake-umami.jpg" failed (2: No such file or directory), client: 193.144.43.230, server: ~^(?<subdomain>[^.]+)\.tarefa21sarafb\.dedyn\.io$, request: "GET /sites/default/files/styles/large_3_2_2x/public/veggie-pasta-bake-umami.jpg?itok=F1O45kkG HTTP/1.1", host: "drupal.tarefa21sarafb.dedyn.io", referrer: "https://drupal.tarefa21sarafb.dedyn.io/"
+2023/03/08 12:59:05 [error] 21#21: *205 open() "/var/www/html/drupal/sites/default/files/styles/medium_8_7/public/umami-bundle.png" failed (2: No such file or directory), client: 193.144.43.230, server: ~^(?<subdomain>[^.]+)\.tarefa21sarafb\.dedyn\.io$, request: "GET /sites/default/files/styles/medium_8_7/public/umami-bundle.png?itok=cFV6JN7N HTTP/1.1", host: "drupal.tarefa21sarafb.dedyn.io", referrer: "https://drupal.tarefa21sarafb.dedyn.io/"
+2023/03/08 12:59:05 [error] 21#21: *87 open() "/var/www/html/drupal/sites/default/files/styles/large_3_2_2x/public/watercress-soup-umami.jpg" failed (2: No such file or directory), client: 193.144.43.230, server: ~^(?<subdomain>[^.]+)\.tarefa21sarafb\.dedyn\.io$, request: "GET /sites/default/files/styles/large_3_2_2x/public/watercress-soup-umami.jpg?itok=DJfX4kfD HTTP/1.1", host: "drupal.tarefa21sarafb.dedyn.io", referrer: "https://drupal.tarefa21sarafb.dedyn.io/"
+2023/03/08 12:59:27 [error] 21#21: *208 open() "/var/www/html/drupal/sites/default/files/styles/large_3_2_2x/public/oatmeal-fruit-syrup-topping.jpg" failed (2: No such file or directory), client: 193.144.43.230, server: ~^(?<subdomain>[^.]+)\.tarefa21sarafb\.dedyn\.io$, request: "GET /sites/default/files/styles/large_3_2_2x/public/oatmeal-fruit-syrup-topping.jpg?itok=hWCwaLmE HTTP/1.1", host: "drupal.tarefa21sarafb.dedyn.io", referrer: "https://drupal.tarefa21sarafb.dedyn.io/"
+2023/03/08 12:59:27 [error] 21#21: *87 open() "/var/www/html/drupal/sites/default/files/styles/square_large/public/borscht-with-pork-ribs-umami.jpg" failed (2: No such file or directory), client: 193.144.43.230, server: ~^(?<subdomain>[^.]+)\.tarefa21sarafb\.dedyn\.io$, request: "GET /sites/default/files/styles/square_large/public/borscht-with-pork-ribs-umami.jpg?itok=fp07Kegi HTTP/1.1", host: "drupal.tarefa21sarafb.dedyn.io", referrer: "https://drupal.tarefa21sarafb.dedyn.io/"
+2023/03/08 12:59:27 [error] 21#21: *205 open() "/var/www/html/drupal/sites/default/files/styles/square_large/public/chili-sauce-umami.jpg" failed (2: No such file or directory), client: 193.144.43.230, server: ~^(?<subdomain>[^.]+)\.tarefa21sarafb\.dedyn\.io$, request: "GET /sites/default/files/styles/square_large/public/chili-sauce-umami.jpg?itok=8DICDtPL HTTP/1.1", host: "drupal.tarefa21sarafb.dedyn.io", referrer: "https://drupal.tarefa21sarafb.dedyn.io/"
+2023/03/08 12:59:27 [error] 21#21: *206 open() "/var/www/html/drupal/sites/default/files/styles/large_3_2_2x/public/mediterranean-quiche-umami.jpg" failed (2: No such file or directory), client: 193.144.43.230, server: ~^(?<subdomain>[^.]+)\.tarefa21sarafb\.dedyn\.io$, request: "GET /sites/default/files/styles/large_3_2_2x/public/mediterranean-quiche-umami.jpg?itok=WUUGaYrc HTTP/1.1", host: "drupal.tarefa21sarafb.dedyn.io", referrer: "https://drupal.tarefa21sarafb.dedyn.io/"
+2023/03/08 12:59:28 [error] 21#21: *211 open() "/var/www/html/drupal/sites/default/files/styles/large_3_2_2x/public/vegan-chocolate-nut-brownies.jpg" failed (2: No such file or directory), client: 193.144.43.230, server: ~^(?<subdomain>[^.]+)\.tarefa21sarafb\.dedyn\.io$, request: "GET /sites/default/files/styles/large_3_2_2x/public/vegan-chocolate-nut-brownies.jpg?itok=WkRaYwAP HTTP/1.1", host: "drupal.tarefa21sarafb.dedyn.io", referrer: "https://drupal.tarefa21sarafb.dedyn.io/"
+2023/03/08 12:59:28 [error] 21#21: *202 open() "/var/www/html/drupal/sites/default/files/styles/large_3_2_2x/public/veggie-pasta-bake-umami.jpg" failed (2: No such file or directory), client: 193.144.43.230, server: ~^(?<subdomain>[^.]+)\.tarefa21sarafb\.dedyn\.io$, request: "GET /sites/default/files/styles/large_3_2_2x/public/veggie-pasta-bake-umami.jpg?itok=F1O45kkG HTTP/1.1", host: "drupal.tarefa21sarafb.dedyn.io", referrer: "https://drupal.tarefa21sarafb.dedyn.io/"
+2023/03/08 12:59:28 [error] 21#21: *208 open() "/var/www/html/drupal/sites/default/files/styles/large_3_2_2x/public/watercress-soup-umami.jpg" failed (2: No such file or directory), client: 193.144.43.230, server: ~^(?<subdomain>[^.]+)\.tarefa21sarafb\.dedyn\.io$, request: "GET /sites/default/files/styles/large_3_2_2x/public/watercress-soup-umami.jpg?itok=DJfX4kfD HTTP/1.1", host: "drupal.tarefa21sarafb.dedyn.io", referrer: "https://drupal.tarefa21sarafb.dedyn.io/"
+2023/03/08 12:59:28 [error] 21#21: *87 open() "/var/www/html/drupal/sites/default/files/styles/medium_8_7/public/umami-bundle.png" failed (2: No such file or directory), client: 193.144.43.230, server: ~^(?<subdomain>[^.]+)\.tarefa21sarafb\.dedyn\.io$, request: "GET /sites/default/files/styles/medium_8_7/public/umami-bundle.png?itok=cFV6JN7N HTTP/1.1", host: "drupal.tarefa21sarafb.dedyn.io", referrer: "https://drupal.tarefa21sarafb.dedyn.io/"
+2023/03/08 13:03:17 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2023/03/08 13:03:17 [notice] 20#20: gracefully shutting down
+2023/03/08 13:03:17 [notice] 20#20: exiting
+2023/03/08 13:03:17 [notice] 20#20: exit
+2023/03/08 13:03:17 [notice] 21#21: gracefully shutting down
+2023/03/08 13:03:17 [notice] 21#21: exiting
+2023/03/08 13:03:17 [notice] 21#21: exit
+2023/03/08 13:03:17 [notice] 1#1: signal 17 (SIGCHLD) received from 20
+2023/03/08 13:03:17 [notice] 1#1: worker process 20 exited with code 0
+2023/03/08 13:03:17 [notice] 1#1: signal 29 (SIGIO) received
+2023/03/08 13:03:17 [notice] 1#1: signal 17 (SIGCHLD) received from 21
+2023/03/08 13:03:17 [notice] 1#1: worker process 21 exited with code 0
+2023/03/08 13:03:17 [notice] 1#1: exit
+2023/03/08 17:15:24 [emerg] 1#1: host not found in upstream "symfony" in /etc/nginx/conf.d/nginx.conf:22
+2023/03/08 17:16:53 [notice] 1#1: using the "epoll" event method
+2023/03/08 17:16:53 [notice] 1#1: nginx/1.23.3
+2023/03/08 17:16:53 [notice] 1#1: built by gcc 12.2.1 20220924 (Alpine 12.2.1_git20220924-r4) 
+2023/03/08 17:16:53 [notice] 1#1: OS: Linux 5.15.0-1030-oracle
+2023/03/08 17:16:53 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/03/08 17:16:53 [notice] 1#1: start worker processes
+2023/03/08 17:16:53 [notice] 1#1: start worker process 20
+2023/03/08 17:16:53 [notice] 1#1: start worker process 21
+2023/03/08 17:20:51 [error] 20#20: *20 open() "/var/www/html/prestashop/apple-touch-icon.png" failed (2: No such file or directory), client: 77.27.99.223, server: ~^(?<subdomain>[^.]+)\.tarefa21sarafb\.dedyn\.io$, request: "GET /apple-touch-icon.png HTTP/1.1", host: "prestashop.tarefa21sarafb.dedyn.io"
+2023/03/08 17:20:51 [error] 20#20: *21 open() "/var/www/html/prestashop/favicon.png" failed (2: No such file or directory), client: 77.27.99.223, server: ~^(?<subdomain>[^.]+)\.tarefa21sarafb\.dedyn\.io$, request: "GET /favicon.png HTTP/1.1", host: "prestashop.tarefa21sarafb.dedyn.io"
+2023/03/08 17:20:51 [error] 20#20: *22 open() "/var/www/html/prestashop/favicon.gif" failed (2: No such file or directory), client: 77.27.99.223, server: ~^(?<subdomain>[^.]+)\.tarefa21sarafb\.dedyn\.io$, request: "GET /favicon.gif HTTP/1.1", host: "prestashop.tarefa21sarafb.dedyn.io"
+2023/03/08 17:20:52 [error] 20#20: *23 open() "/var/www/html/prestashop/favicon.ico" failed (2: No such file or directory), client: 77.27.99.223, server: ~^(?<subdomain>[^.]+)\.tarefa21sarafb\.dedyn\.io$, request: "GET /favicon.ico HTTP/1.1", host: "prestashop.tarefa21sarafb.dedyn.io"
+2023/03/08 17:21:59 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2023/03/08 17:21:59 [notice] 21#21: gracefully shutting down
+2023/03/08 17:21:59 [notice] 21#21: exiting
+2023/03/08 17:21:59 [notice] 21#21: exit
+2023/03/08 17:21:59 [notice] 20#20: gracefully shutting down
+2023/03/08 17:21:59 [notice] 20#20: exiting
+2023/03/08 17:21:59 [notice] 20#20: exit
+2023/03/08 17:21:59 [notice] 1#1: signal 17 (SIGCHLD) received from 21
+2023/03/08 17:21:59 [notice] 1#1: worker process 21 exited with code 0
+2023/03/08 17:21:59 [notice] 1#1: signal 29 (SIGIO) received
+2023/03/08 17:21:59 [notice] 1#1: signal 17 (SIGCHLD) received from 20
+2023/03/08 17:21:59 [notice] 1#1: worker process 20 exited with code 0
+2023/03/08 17:21:59 [notice] 1#1: exit
+2023/03/08 17:22:09 [notice] 1#1: using the "epoll" event method
+2023/03/08 17:22:09 [notice] 1#1: nginx/1.23.3
+2023/03/08 17:22:09 [notice] 1#1: built by gcc 12.2.1 20220924 (Alpine 12.2.1_git20220924-r4) 
+2023/03/08 17:22:09 [notice] 1#1: OS: Linux 5.15.0-1030-oracle
+2023/03/08 17:22:09 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/03/08 17:22:09 [notice] 1#1: start worker processes
+2023/03/08 17:22:09 [notice] 1#1: start worker process 20
+2023/03/08 17:22:09 [notice] 1#1: start worker process 21
+2023/03/08 17:22:22 [warn] 20#20: *6 an upstream response is buffered to a temporary file /var/cache/nginx/proxy_temp/1/00/0000000001 while reading upstream, client: 83.165.96.164, server: symfony.tarefa21sarafb.dedyn.io, request: "GET /build/fonts/lato-normal.75614cfc.woff2 HTTP/1.1", upstream: "http://172.20.0.4:8000/build/fonts/lato-normal.75614cfc.woff2", host: "symfony.tarefa21sarafb.dedyn.io", referrer: "https://symfony.tarefa21sarafb.dedyn.io/build/app.0240b2dc.css"
+2023/03/08 17:22:22 [warn] 21#21: *8 an upstream response is buffered to a temporary file /var/cache/nginx/proxy_temp/2/00/0000000002 while reading upstream, client: 83.165.96.164, server: symfony.tarefa21sarafb.dedyn.io, request: "GET /build/fonts/lato-bold.21b3848a.woff2 HTTP/1.1", upstream: "http://172.20.0.4:8000/build/fonts/lato-bold.21b3848a.woff2", host: "symfony.tarefa21sarafb.dedyn.io", referrer: "https://symfony.tarefa21sarafb.dedyn.io/build/app.0240b2dc.css"
+2023/03/08 17:25:37 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2023/03/08 17:25:37 [notice] 20#20: gracefully shutting down
+2023/03/08 17:25:37 [notice] 20#20: exiting
+2023/03/08 17:25:37 [notice] 21#21: gracefully shutting down
+2023/03/08 17:25:37 [notice] 21#21: exiting
+2023/03/08 17:25:37 [notice] 20#20: exit
+2023/03/08 17:25:37 [notice] 21#21: exit
+2023/03/08 17:25:37 [notice] 1#1: signal 17 (SIGCHLD) received from 20
+2023/03/08 17:25:37 [notice] 1#1: worker process 20 exited with code 0
+2023/03/08 17:25:37 [notice] 1#1: signal 29 (SIGIO) received
+2023/03/08 17:25:37 [notice] 1#1: signal 17 (SIGCHLD) received from 21
+2023/03/08 17:25:37 [notice] 1#1: worker process 21 exited with code 0
+2023/03/08 17:25:37 [notice] 1#1: exit
+2023/03/08 17:25:54 [notice] 1#1: using the "epoll" event method
+2023/03/08 17:25:54 [notice] 1#1: nginx/1.23.3
+2023/03/08 17:25:54 [notice] 1#1: built by gcc 12.2.1 20220924 (Alpine 12.2.1_git20220924-r4) 
+2023/03/08 17:25:54 [notice] 1#1: OS: Linux 5.15.0-1030-oracle
+2023/03/08 17:25:54 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/03/08 17:25:54 [notice] 1#1: start worker processes
+2023/03/08 17:25:54 [notice] 1#1: start worker process 20
+2023/03/08 17:25:54 [notice] 1#1: start worker process 21
+2023/03/08 17:26:11 [warn] 21#21: *4 an upstream response is buffered to a temporary file /var/cache/nginx/proxy_temp/1/00/0000000001 while reading upstream, client: 83.165.96.164, server: symfony.tarefa21sarafb.dedyn.io, request: "GET /en/blog/ HTTP/1.1", upstream: "http://172.21.0.2:8000/en/blog/", host: "symfony.tarefa21sarafb.dedyn.io", referrer: "https://symfony.tarefa21sarafb.dedyn.io/"
+2023/03/08 17:29:09 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2023/03/08 17:29:09 [notice] 20#20: gracefully shutting down
+2023/03/08 17:29:09 [notice] 20#20: exiting
+2023/03/08 17:29:09 [notice] 20#20: exit
+2023/03/08 17:29:09 [notice] 21#21: gracefully shutting down
+2023/03/08 17:29:09 [notice] 21#21: exiting
+2023/03/08 17:29:09 [notice] 21#21: exit
+2023/03/08 17:29:09 [notice] 1#1: signal 17 (SIGCHLD) received from 20
+2023/03/08 17:29:09 [notice] 1#1: worker process 20 exited with code 0
+2023/03/08 17:29:09 [notice] 1#1: signal 29 (SIGIO) received
+2023/03/08 17:29:09 [notice] 1#1: signal 17 (SIGCHLD) received from 21
+2023/03/08 17:29:09 [notice] 1#1: worker process 21 exited with code 0
+2023/03/08 17:29:09 [notice] 1#1: exit
+2023/03/08 17:29:24 [notice] 1#1: using the "epoll" event method
+2023/03/08 17:29:24 [notice] 1#1: nginx/1.23.3
+2023/03/08 17:29:24 [notice] 1#1: built by gcc 12.2.1 20220924 (Alpine 12.2.1_git20220924-r4) 
+2023/03/08 17:29:24 [notice] 1#1: OS: Linux 5.15.0-1030-oracle
+2023/03/08 17:29:24 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/03/08 17:29:24 [notice] 1#1: start worker processes
+2023/03/08 17:29:24 [notice] 1#1: start worker process 20
+2023/03/08 17:29:24 [notice] 1#1: start worker process 21
+2023/03/08 17:29:40 [warn] 20#20: *1 an upstream response is buffered to a temporary file /var/cache/nginx/proxy_temp/1/00/0000000001 while reading upstream, client: 83.165.96.164, server: symfony.tarefa21sarafb.dedyn.io, request: "GET /en/blog/ HTTP/1.1", upstream: "http://172.22.0.3:8000/en/blog/", host: "symfony.tarefa21sarafb.dedyn.io", referrer: "https://symfony.tarefa21sarafb.dedyn.io/"
+2023/03/08 17:37:37 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2023/03/08 17:37:37 [notice] 20#20: gracefully shutting down
+2023/03/08 17:37:37 [notice] 21#21: gracefully shutting down
+2023/03/08 17:37:37 [notice] 20#20: exiting
+2023/03/08 17:37:37 [notice] 21#21: exiting
+2023/03/08 17:37:37 [notice] 20#20: exit
+2023/03/08 17:37:37 [notice] 21#21: exit
+2023/03/08 17:37:37 [notice] 1#1: signal 17 (SIGCHLD) received from 20
+2023/03/08 17:37:37 [notice] 1#1: worker process 20 exited with code 0
+2023/03/08 17:37:37 [notice] 1#1: signal 29 (SIGIO) received
+2023/03/08 17:37:37 [notice] 1#1: signal 17 (SIGCHLD) received from 21
+2023/03/08 17:37:37 [notice] 1#1: worker process 21 exited with code 0
+2023/03/08 17:37:37 [notice] 1#1: exit
+2023/03/08 17:38:10 [notice] 1#1: using the "epoll" event method
+2023/03/08 17:38:10 [notice] 1#1: nginx/1.23.3
+2023/03/08 17:38:10 [notice] 1#1: built by gcc 12.2.1 20220924 (Alpine 12.2.1_git20220924-r4) 
+2023/03/08 17:38:10 [notice] 1#1: OS: Linux 5.15.0-1030-oracle
+2023/03/08 17:38:10 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/03/08 17:38:10 [notice] 1#1: start worker processes
+2023/03/08 17:38:10 [notice] 1#1: start worker process 20
+2023/03/08 17:38:10 [notice] 1#1: start worker process 21
+2023/03/08 17:39:10 [error] 21#21: *1 connect() failed (113: Host is unreachable) while connecting to upstream, client: 83.165.96.164, server: symfony.tarefa21sarafb.dedyn.io, request: "GET / HTTP/1.1", upstream: "http://172.23.0.3:8000/", host: "symfony.tarefa21sarafb.dedyn.io"
+2023/03/08 17:39:19 [error] 21#21: *1 connect() failed (113: Host is unreachable) while connecting to upstream, client: 83.165.96.164, server: symfony.tarefa21sarafb.dedyn.io, request: "GET / HTTP/1.1", upstream: "http://172.23.0.3:8000/", host: "symfony.tarefa21sarafb.dedyn.io"
+2023/03/08 17:39:28 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2023/03/08 17:39:28 [notice] 20#20: gracefully shutting down
+2023/03/08 17:39:28 [notice] 20#20: exiting
+2023/03/08 17:39:28 [notice] 20#20: exit
+2023/03/08 17:39:28 [notice] 21#21: gracefully shutting down
+2023/03/08 17:39:28 [notice] 21#21: exiting
+2023/03/08 17:39:28 [notice] 21#21: exit
+2023/03/08 17:39:28 [notice] 1#1: signal 17 (SIGCHLD) received from 20
+2023/03/08 17:39:28 [notice] 1#1: worker process 20 exited with code 0
+2023/03/08 17:39:28 [notice] 1#1: signal 29 (SIGIO) received
+2023/03/08 17:39:28 [notice] 1#1: signal 17 (SIGCHLD) received from 21
+2023/03/08 17:39:28 [notice] 1#1: worker process 21 exited with code 0
+2023/03/08 17:39:28 [notice] 1#1: exit
+2023/03/08 17:39:39 [notice] 1#1: using the "epoll" event method
+2023/03/08 17:39:39 [notice] 1#1: nginx/1.23.3
+2023/03/08 17:39:39 [notice] 1#1: built by gcc 12.2.1 20220924 (Alpine 12.2.1_git20220924-r4) 
+2023/03/08 17:39:39 [notice] 1#1: OS: Linux 5.15.0-1030-oracle
+2023/03/08 17:39:39 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/03/08 17:39:39 [notice] 1#1: start worker processes
+2023/03/08 17:39:39 [notice] 1#1: start worker process 20
+2023/03/08 17:39:39 [notice] 1#1: start worker process 21
+2023/03/08 17:39:56 [error] 21#21: *1 connect() failed (113: Host is unreachable) while connecting to upstream, client: 83.165.96.164, server: symfony.tarefa21sarafb.dedyn.io, request: "GET / HTTP/1.1", upstream: "http://172.24.0.2:8000/", host: "symfony.tarefa21sarafb.dedyn.io"
+2023/03/08 17:42:06 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2023/03/08 17:42:06 [notice] 21#21: gracefully shutting down
+2023/03/08 17:42:06 [notice] 20#20: gracefully shutting down
+2023/03/08 17:42:06 [notice] 21#21: exiting
+2023/03/08 17:42:06 [notice] 20#20: exiting
+2023/03/08 17:42:06 [notice] 21#21: exit
+2023/03/08 17:42:06 [notice] 20#20: exit
+2023/03/08 17:42:06 [notice] 1#1: signal 17 (SIGCHLD) received from 20
+2023/03/08 17:42:06 [notice] 1#1: worker process 20 exited with code 0
+2023/03/08 17:42:06 [notice] 1#1: signal 29 (SIGIO) received
+2023/03/08 17:42:06 [notice] 1#1: signal 17 (SIGCHLD) received from 21
+2023/03/08 17:42:06 [notice] 1#1: worker process 21 exited with code 0
+2023/03/08 17:42:06 [notice] 1#1: exit
+2023/03/08 17:42:15 [notice] 1#1: using the "epoll" event method
+2023/03/08 17:42:15 [notice] 1#1: nginx/1.23.3
+2023/03/08 17:42:15 [notice] 1#1: built by gcc 12.2.1 20220924 (Alpine 12.2.1_git20220924-r4) 
+2023/03/08 17:42:15 [notice] 1#1: OS: Linux 5.15.0-1030-oracle
+2023/03/08 17:42:15 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/03/08 17:42:15 [notice] 1#1: start worker processes
+2023/03/08 17:42:15 [notice] 1#1: start worker process 20
+2023/03/08 17:42:15 [notice] 1#1: start worker process 21
+2023/03/08 17:42:20 [error] 20#20: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 83.165.96.164, server: symfony.tarefa21sarafb.dedyn.io, request: "GET / HTTP/1.1", upstream: "http://172.25.0.4:8000/", host: "symfony.tarefa21sarafb.dedyn.io"
+2023/03/08 17:45:16 [warn] 20#20: *10 an upstream response is buffered to a temporary file /var/cache/nginx/proxy_temp/1/00/0000000001 while reading upstream, client: 83.165.96.164, server: symfony.tarefa21sarafb.dedyn.io, request: "GET /build/827.162626d5.js HTTP/1.1", upstream: "http://172.25.0.4:8000/build/827.162626d5.js", host: "symfony.tarefa21sarafb.dedyn.io", referrer: "https://symfony.tarefa21sarafb.dedyn.io/en/admin/post/"
+2023/03/08 17:45:58 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2023/03/08 17:45:58 [notice] 20#20: gracefully shutting down
+2023/03/08 17:45:58 [notice] 21#21: gracefully shutting down
+2023/03/08 17:45:58 [notice] 21#21: exiting
+2023/03/08 17:45:58 [notice] 20#20: exiting
+2023/03/08 17:45:58 [notice] 21#21: exit
+2023/03/08 17:45:58 [notice] 20#20: exit
+2023/03/08 17:45:58 [notice] 1#1: signal 17 (SIGCHLD) received from 21
+2023/03/08 17:45:58 [notice] 1#1: worker process 20 exited with code 0
+2023/03/08 17:45:58 [notice] 1#1: worker process 21 exited with code 0
+2023/03/08 17:45:58 [notice] 1#1: exit
+2023/03/08 17:46:08 [notice] 1#1: using the "epoll" event method
+2023/03/08 17:46:08 [notice] 1#1: nginx/1.23.3
+2023/03/08 17:46:08 [notice] 1#1: built by gcc 12.2.1 20220924 (Alpine 12.2.1_git20220924-r4) 
+2023/03/08 17:46:08 [notice] 1#1: OS: Linux 5.15.0-1030-oracle
+2023/03/08 17:46:08 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/03/08 17:46:08 [notice] 1#1: start worker processes
+2023/03/08 17:46:08 [notice] 1#1: start worker process 20
+2023/03/08 17:46:08 [notice] 1#1: start worker process 21
+2023/03/08 17:47:18 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2023/03/08 17:47:18 [notice] 21#21: gracefully shutting down
+2023/03/08 17:47:18 [notice] 21#21: exiting
+2023/03/08 17:47:18 [notice] 21#21: exit
+2023/03/08 17:47:18 [notice] 20#20: gracefully shutting down
+2023/03/08 17:47:18 [notice] 20#20: exiting
+2023/03/08 17:47:18 [notice] 20#20: exit
+2023/03/08 17:47:18 [notice] 1#1: signal 17 (SIGCHLD) received from 21
+2023/03/08 17:47:18 [notice] 1#1: worker process 21 exited with code 0
+2023/03/08 17:47:18 [notice] 1#1: signal 29 (SIGIO) received
+2023/03/08 17:47:18 [notice] 1#1: signal 17 (SIGCHLD) received from 20
+2023/03/08 17:47:18 [notice] 1#1: worker process 20 exited with code 0
+2023/03/08 17:47:18 [notice] 1#1: exit
+2023/03/08 17:47:25 [notice] 1#1: using the "epoll" event method
+2023/03/08 17:47:25 [notice] 1#1: nginx/1.23.3
+2023/03/08 17:47:25 [notice] 1#1: built by gcc 12.2.1 20220924 (Alpine 12.2.1_git20220924-r4) 
+2023/03/08 17:47:25 [notice] 1#1: OS: Linux 5.15.0-1030-oracle
+2023/03/08 17:47:25 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/03/08 17:47:25 [notice] 1#1: start worker processes
+2023/03/08 17:47:25 [notice] 1#1: start worker process 20
+2023/03/08 17:47:25 [notice] 1#1: start worker process 21
+2023/03/08 17:47:32 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2023/03/08 17:47:32 [notice] 20#20: gracefully shutting down
+2023/03/08 17:47:32 [notice] 20#20: exiting
+2023/03/08 17:47:32 [notice] 21#21: gracefully shutting down
+2023/03/08 17:47:32 [notice] 21#21: exiting
+2023/03/08 17:47:32 [notice] 20#20: exit
+2023/03/08 17:47:32 [notice] 21#21: exit
+2023/03/08 17:47:32 [notice] 1#1: signal 17 (SIGCHLD) received from 20
+2023/03/08 17:47:32 [notice] 1#1: worker process 20 exited with code 0
+2023/03/08 17:47:32 [notice] 1#1: signal 29 (SIGIO) received
+2023/03/08 17:47:32 [notice] 1#1: signal 17 (SIGCHLD) received from 21
+2023/03/08 17:47:32 [notice] 1#1: worker process 21 exited with code 0
+2023/03/08 17:47:32 [notice] 1#1: exit
+2023/03/08 17:47:37 [notice] 1#1: using the "epoll" event method
+2023/03/08 17:47:37 [notice] 1#1: nginx/1.23.3
+2023/03/08 17:47:37 [notice] 1#1: built by gcc 12.2.1 20220924 (Alpine 12.2.1_git20220924-r4) 
+2023/03/08 17:47:37 [notice] 1#1: OS: Linux 5.15.0-1030-oracle
+2023/03/08 17:47:37 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/03/08 17:47:37 [notice] 1#1: start worker processes
+2023/03/08 17:47:37 [notice] 1#1: start worker process 19
+2023/03/08 17:47:37 [notice] 1#1: start worker process 20
+2023/03/08 17:47:47 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2023/03/08 17:47:47 [notice] 19#19: gracefully shutting down
+2023/03/08 17:47:47 [notice] 19#19: exiting
+2023/03/08 17:47:47 [notice] 19#19: exit
+2023/03/08 17:47:47 [notice] 20#20: gracefully shutting down
+2023/03/08 17:47:47 [notice] 20#20: exiting
+2023/03/08 17:47:47 [notice] 20#20: exit
+2023/03/08 17:47:47 [notice] 1#1: signal 17 (SIGCHLD) received from 20
+2023/03/08 17:47:47 [notice] 1#1: worker process 20 exited with code 0
+2023/03/08 17:47:47 [notice] 1#1: signal 29 (SIGIO) received
+2023/03/08 17:47:47 [notice] 1#1: signal 17 (SIGCHLD) received from 19
+2023/03/08 17:47:47 [notice] 1#1: worker process 19 exited with code 0
+2023/03/08 17:47:47 [notice] 1#1: exit
+2023/03/08 17:47:54 [notice] 1#1: using the "epoll" event method
+2023/03/08 17:47:54 [notice] 1#1: nginx/1.23.3
+2023/03/08 17:47:54 [notice] 1#1: built by gcc 12.2.1 20220924 (Alpine 12.2.1_git20220924-r4) 
+2023/03/08 17:47:54 [notice] 1#1: OS: Linux 5.15.0-1030-oracle
+2023/03/08 17:47:54 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/03/08 17:47:54 [notice] 1#1: start worker processes
+2023/03/08 17:47:54 [notice] 1#1: start worker process 20
+2023/03/08 17:47:54 [notice] 1#1: start worker process 21
+2023/03/08 17:48:15 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2023/03/08 17:48:15 [notice] 20#20: gracefully shutting down
+2023/03/08 17:48:15 [notice] 21#21: gracefully shutting down
+2023/03/08 17:48:15 [notice] 20#20: exiting
+2023/03/08 17:48:15 [notice] 21#21: exiting
+2023/03/08 17:48:15 [notice] 20#20: exit
+2023/03/08 17:48:15 [notice] 21#21: exit
+2023/03/08 17:48:15 [notice] 1#1: signal 17 (SIGCHLD) received from 20
+2023/03/08 17:48:15 [notice] 1#1: worker process 20 exited with code 0
+2023/03/08 17:48:15 [notice] 1#1: signal 29 (SIGIO) received
+2023/03/08 17:48:15 [notice] 1#1: signal 17 (SIGCHLD) received from 21
+2023/03/08 17:48:15 [notice] 1#1: worker process 21 exited with code 0
+2023/03/08 17:48:15 [notice] 1#1: exit
+2023/03/08 17:48:23 [notice] 1#1: using the "epoll" event method
+2023/03/08 17:48:23 [notice] 1#1: nginx/1.23.3
+2023/03/08 17:48:23 [notice] 1#1: built by gcc 12.2.1 20220924 (Alpine 12.2.1_git20220924-r4) 
+2023/03/08 17:48:23 [notice] 1#1: OS: Linux 5.15.0-1030-oracle
+2023/03/08 17:48:23 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/03/08 17:48:23 [notice] 1#1: start worker processes
+2023/03/08 17:48:23 [notice] 1#1: start worker process 20
+2023/03/08 17:48:23 [notice] 1#1: start worker process 21
+2023/03/08 17:48:43 [error] 20#20: *1 connect() failed (113: Host is unreachable) while connecting to upstream, client: 83.165.96.164, server: symfony.tarefa21sarafb.dedyn.io, request: "GET / HTTP/1.1", upstream: "http://172.28.0.3:8000/", host: "symfony.tarefa21sarafb.dedyn.io"
+2023/03/08 17:49:45 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2023/03/08 17:49:45 [notice] 20#20: gracefully shutting down
+2023/03/08 17:49:45 [notice] 20#20: exiting
+2023/03/08 17:49:45 [notice] 20#20: exit
+2023/03/08 17:49:45 [notice] 21#21: gracefully shutting down
+2023/03/08 17:49:45 [notice] 21#21: exiting
+2023/03/08 17:49:45 [notice] 21#21: exit
+2023/03/08 17:49:45 [notice] 1#1: signal 17 (SIGCHLD) received from 20
+2023/03/08 17:49:45 [notice] 1#1: worker process 20 exited with code 0
+2023/03/08 17:49:45 [notice] 1#1: signal 29 (SIGIO) received
+2023/03/08 17:49:45 [notice] 1#1: signal 17 (SIGCHLD) received from 21
+2023/03/08 17:49:45 [notice] 1#1: worker process 21 exited with code 0
+2023/03/08 17:49:45 [notice] 1#1: exit
+2023/03/08 17:49:52 [notice] 1#1: using the "epoll" event method
+2023/03/08 17:49:52 [notice] 1#1: nginx/1.23.3
+2023/03/08 17:49:52 [notice] 1#1: built by gcc 12.2.1 20220924 (Alpine 12.2.1_git20220924-r4) 
+2023/03/08 17:49:52 [notice] 1#1: OS: Linux 5.15.0-1030-oracle
+2023/03/08 17:49:52 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/03/08 17:49:52 [notice] 1#1: start worker processes
+2023/03/08 17:49:52 [notice] 1#1: start worker process 20
+2023/03/08 17:49:52 [notice] 1#1: start worker process 21
+2023/03/08 17:54:43 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2023/03/08 17:54:43 [notice] 20#20: gracefully shutting down
+2023/03/08 17:54:43 [notice] 20#20: exiting
+2023/03/08 17:54:43 [notice] 20#20: exit
+2023/03/08 17:54:43 [notice] 21#21: gracefully shutting down
+2023/03/08 17:54:43 [notice] 21#21: exiting
+2023/03/08 17:54:43 [notice] 21#21: exit
+2023/03/08 17:54:43 [notice] 1#1: signal 17 (SIGCHLD) received from 20
+2023/03/08 17:54:43 [notice] 1#1: worker process 20 exited with code 0
+2023/03/08 17:54:43 [notice] 1#1: signal 29 (SIGIO) received
+2023/03/08 17:54:43 [notice] 1#1: signal 17 (SIGCHLD) received from 21
+2023/03/08 17:54:43 [notice] 1#1: worker process 21 exited with code 0
+2023/03/08 17:54:43 [notice] 1#1: exit
